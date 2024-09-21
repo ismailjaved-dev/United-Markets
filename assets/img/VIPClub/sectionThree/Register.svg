@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.98 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="344.35" y1="0" x2="344.35" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e9ce7a"/>
+      <stop offset="1" stop-color="#dbab4b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="194.95" x2="194.95" y2="512" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="312.19" y1="322.8" x2="312.19" y2="371.88" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="389.5" y1="199.3" x2="389.5" y2="340.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="475.39" y1="148" x2="475.39" y2="220.8" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Capa_1" data-name="Capa 1">
+    <g>
+      <path class="cls-1" d="m389.5,87.4c0-12-4.7-23.3-13.2-31.8l-42.4-42.4c-8.4-8.4-20.3-13.2-32.1-13.2h-2.6v90h90.3v-2.6Z"/>
+      <path class="cls-3" d="m350.1,385.5l-47.7,15.9-7.3.4c-12,0-23.4-5.8-30.4-15.6-7-9.7-8.9-22.4-5.1-33.8l14.3-42.9c2.9-8.7,7.9-16.8,14.4-23.4l101.6-101.1v-65h-105.4c-8.3,0-14.5-6.7-14.5-15V0H45C20.2,0,0,20.2,0,45v422c0,24.8,20.2,45,45,45h299.5c24.8,0,45.4-20.2,45.4-45v-112l-16.5,16.1c-6.7,6.6-14.5,11.4-23.3,14.4ZM75,150h209.5c8.3,0,15,6.7,15,15s-6.7,15-15,15H75c-8.3,0-15-6.7-15-15s6.7-15,15-15Zm0,60h149.5c8.3,0,15,6.7,15,15s-6.7,15-15,15H75c-8.3,0-15-6.7-15-15s6.7-15,15-15Zm0,60h149.5c8.3,0,15,6.7,15,15s-6.7,15-15,15H75c-8.3,0-15-6.7-15-15s6.7-15,15-15Zm-15,75c0-8.3,6.7-15,15-15h149.5c8.3,0,15,6.7,15,15s-6.7,15-15,15H75c-8.3,0-15-6.7-15-15Zm224.5,105h-90c-8.3,0-15-6.7-15-15s6.7-15,15-15h90c8.3,0,15,6.7,15,15s-6.7,15-15,15Z"/>
+      <path class="cls-4" d="m297.6,371.5l39.1-13.1-35.6-35.6-13,39.2c-2,5.9,3.6,11.4,9.5,9.5Z"/>
+      <path class="cls-5" d="m318.8,298.1l42.6,42.6,98.8-98.8-42.6-42.6-98.8,98.8Z"/>
+      <path class="cls-2" d="m503.2,156.3c-5.3-5.3-13-8.3-21.3-8.3s-16,3-21.3,8.4l-21.8,21.8,42.6,42.6c11.9-11.9,20.2-20.2,21.8-21.8,11.7-11.8,11.7-31,0-42.7Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,2771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIP Club — 24markets.com</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="fixing.css" />
+    <link rel="stylesheet" href="fixing1200.css" />
+    <link rel="stylesheet" href="fixing768.css" />
+    <link rel="stylesheet" href="VIPClub/style.css" />
+    <link rel="stylesheet" href="VIPClub/1200.css" />
+    <link rel="stylesheet" href="VIPClub/768.css" />
+
+    <link
+      rel="stylesheet"
+      href="VIPClub/node_modules/intl-tel-input/build/css/demo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="VIPClub/node_modules/intl-tel-input/build/css/intlTelInput.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+
+    <style>
+      .iti__selected-flag {
+        margin-left: 0 !important;
+        margin-top: -10px;
+        height: fit-content;
+        height: 139% !important;
+        margin-top: -16px;
+      }
+
+      .vs {
+        visibility: hidden;
+      }
+
+      .form {
+        grid-area: form;
+        width: 100% !important;
+        margin-left: 0 !important;
+      }
+
+      /* NEW CODES */
+
+      .form-wrapper input:not([type="checkbox"]),
+      .form-wrapper select {
+        margin-top: 1rem !important;
+      }
+
+      input:not([type="checkbox"]) {
+        height: 60px !important;
+      }
+
+      .rounded-\[10px\] {
+        border-radius: 10px;
+      }
+
+      .bg-white {
+        --tw-bg-opacity: 1;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      }
+
+      @media (min-width: 1024px) {
+        .lg\:max-w-\[650px\] {
+          max-width: 650px;
+        }
+      }
+
+      .mt-9 {
+        margin-top: 2.25rem;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .items-start {
+        align-items: flex-start;
+      }
+
+      .h-full {
+        height: 100%;
+      }
+
+      .flex-col {
+        flex-direction: column;
+      }
+
+      @media (min-width: 1024px) {
+        .lg\:pt-\[99px\] {
+          padding-top: 99px;
+        }
+      }
+
+      :root {
+        --PhoneInput-color--focus: #03b2cb;
+        --PhoneInputCountrySelect-marginRight: 0.35em;
+        --PhoneInputCountrySelectArrow-marginLeft: var(
+          --PhoneInputCountrySelect-marginRight
+        );
+        --PhoneInputCountrySelectArrow-color--focus: var(
+          --PhoneInput-color--focus
+        );
+        --PhoneInputCountryFlag-borderColor--focus: var(
+          --PhoneInput-color--focus
+        );
+      }
+
+      .px-4 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
+
+      .pb-8 {
+        padding-bottom: 2rem;
+      }
+
+      @media (min-width: 768px) {
+        .md\:pt-11 {
+          padding-top: 2rem;
+          background: white;
+          border-radius: 10px;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .lg\:px-\[58px\] {
+          padding-left: 58px;
+          padding-right: 58px;
+        }
+      }
+
+      .validation {
+        font-size: 12px;
+        color: red;
+        padding: 4px;
+        font-weight: 400 !important;
+      }
+
+      *,
+      :after,
+      :before {
+        box-sizing: border-box;
+        border: 0 solid;
+      }
+
+      *,
+      :after,
+      :before {
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+      }
+
+      *,
+      :before,
+      :after {
+        box-sizing: border-box;
+      }
+
+      :backdrop {
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+      }
+
+      #promoCode {
+        height: 100%;
+      }
+
+      .mt-\[19px\] {
+        margin-top: 0;
+      }
+
+      .mt-\[19px\]:first-child {
+        margin-top: -15px !important;
+      }
+
+      .grid {
+        display: grid;
+      }
+
+      .grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .grid-rows-1 {
+        grid-template-rows: repeat(1, minmax(0, 1fr));
+      }
+
+      .gap-\[15px\] {
+        gap: 15px;
+      }
+
+      @media (min-width: 768px) {
+        .md\:gap-\[27px\] {
+          gap: 27px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .form input::placeholder {
+          font-size: 12px !important;
+        }
+
+        .gap-\[15px\] {
+          gap: 0 !important;
+        }
+
+        .grid-cols-2 {
+          grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        }
+
+        .mt-\[19px\] {
+          margin-top: 0;
+        }
+
+        .form-wrapper {
+          padding-top: 1rem;
+        }
+
+        .form-wrapper input {
+          font-size: 14px;
+        }
+      }
+
+      .mt-\[30px\] {
+        margin-top: 30px;
+        font-family: "Gilroy-Regular";
+      }
+
+      button {
+        font-family: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+        text-transform: none;
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        overflow: visible;
+      }
+
+      [type="submit"],
+      button {
+        -webkit-appearance: button;
+        background-color: transparent;
+        background-image: none;
+      }
+
+      .mt-12 {
+        margin-top: 1.2rem;
+      }
+
+      .w-full {
+        width: 100%;
+      }
+
+      .items-center {
+        align-items: center;
+      }
+
+      .justify-between {
+        justify-content: space-between;
+      }
+
+      .text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+
+      .font-medium {
+        font-weight: 500;
+      }
+
+      .text-white {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+      }
+
+      form button[type="submit"] {
+        display: inline-flex;
+        cursor: pointer;
+        align-items: center;
+        border-radius: 0.375rem;
+        --tw-bg-opacity: 1;
+        background-color: rgb(9 149 221 / var(--tw-bg-opacity));
+        padding: 0.7em 1.7em;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 500;
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+        --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+          var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .max-w-\[354px\] {
+        max-width: 354px;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+
+      @media (min-width: 1024px) {
+        .lg\:w-auto {
+          width: auto;
+        }
+
+        .lg\:max-w-full {
+          max-width: 100%;
+        }
+
+        .lg\:text-left {
+          text-align: center;
+        }
+
+        .lg\:text-sm {
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+        }
+      }
+
+      input {
+        font-size: 1rem !important;
+      }
+
+      .markets24RegisterForm_link_styling__emgiX {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-family: "Gilroy";
+      }
+
+      @media (min-width: 1024px) {
+        .markets24RegisterForm_link_styling__emgiX {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+      }
+
+      .justify-start {
+        justify-content: flex-start;
+      }
+
+      form label {
+        --tw-text-opacity: 1;
+        color: rgb(115 115 115 / var(--tw-text-opacity));
+      }
+
+      svg {
+        display: block;
+        vertical-align: middle;
+      }
+
+      .ml-10 {
+        margin-left: 2.5rem;
+      }
+
+      .h-6 {
+        height: 1.5rem;
+      }
+
+      .w-6 {
+        width: 1.5rem;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .text-black {
+        --tw-text-opacity: 1;
+        color: rgb(51 48 65 / var(--tw-text-opacity));
+      }
+
+      @media (min-width: 1024px) {
+        .lg\:block {
+          display: block;
+        }
+      }
+
+      input {
+        font-family: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .iti__flag-container {
+        height: calc(100% - 1rem) !important;
+        margin-top: 1rem;
+      }
+
+      [type="tel"] {
+        width: 100% !important;
+        border-radius: 0.375rem !important;
+        border-width: 1px !important;
+        --tw-border-opacity: 1 !important;
+        border-color: rgb(235 235 235 / var(--tw-border-opacity)) !important;
+        padding: 16px 1.111rem !important;
+        font-size: 1rem !important;
+        line-height: 1.5rem !important;
+        --tw-text-opacity: 1 !important;
+        color: rgb(115 115 115 / var(--tw-text-opacity)) !important;
+      }
+
+      .mt-4 {
+        margin-top: 1rem;
+      }
+
+      .border-\[1px\] {
+        border-width: 1px;
+      }
+
+      .border-lightGray {
+        --tw-border-opacity: 1;
+        border-color: rgb(218 222 229 / var(--tw-border-opacity));
+      }
+
+      .py-\[16px\] {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+
+      select {
+        font-family: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+      }
+
+      select {
+        text-transform: none;
+      }
+
+      select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        border-color: #6b7280;
+        border-width: 1px;
+        border-radius: 0;
+        padding: 0.5rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        --tw-shadow: 0 0 #0000;
+      }
+
+      select {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+        background-position: right 0.5rem center;
+        background-repeat: no-repeat;
+        background-size: 1.5em 1.5em;
+        padding-right: 2.5rem;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+      }
+
+      #minfooter {
+        display: none !important;
+      }
+
+      select {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+
+      form select {
+        width: 100%;
+        border-radius: 0.375rem;
+        border-width: 1px;
+        --tw-border-opacity: 1;
+        border-color: rgb(235 235 235 / var(--tw-border-opacity));
+        padding: 16px 1.111rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        --tw-text-opacity: 1;
+        color: rgb(115 115 115 / var(--tw-text-opacity));
+      }
+
+      form select {
+        padding-right: 2.25rem;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      .rich-text p {
+        margin-bottom: 0;
+      }
+
+      .p-1 {
+        padding: 0.25rem;
+      }
+
+      .text-\[12px\] {
+        font-size: 12px;
+      }
+
+      .text-\[red\] {
+        --tw-text-opacity: 1;
+        color: rgb(255 0 0 / var(--tw-text-opacity));
+      }
+
+      @media (min-width: 768px) {
+        .md\:text-xs {
+          font-size: 0.75rem;
+          line-height: 1rem;
+        }
+
+        .form-wrapper {
+          max-width: 100%;
+        }
+      }
+
+      .react-tel-input {
+        font-size: 15px;
+        position: relative;
+        width: 100%;
+      }
+
+      [type="checkbox"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 0;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+        display: inline-block;
+        vertical-align: middle;
+        background-origin: border-box;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        flex-shrink: 0;
+        height: 1rem;
+        width: 1rem;
+        color: #2563eb;
+        background-color: #fff;
+        border-color: #6b7280;
+        border-width: 1px;
+        --tw-shadow: 0 0 #0000;
+      }
+
+      [type="checkbox"] {
+        border-radius: 0;
+      }
+
+      .mr-4 {
+        margin-right: 1rem;
+      }
+
+      .mt-1 {
+        margin-top: 0.25rem;
+      }
+
+      .h-\[26px\] {
+        height: 26px;
+      }
+
+      .w-\[26px\] {
+        width: 26px;
+      }
+
+      .rounded-\[5px\] {
+        border-radius: 5px;
+      }
+
+      .bg-\[length\:20px_20px\] {
+        background-size: 20px 20px;
+      }
+
+      .bg-center {
+        background-position: 50%;
+      }
+
+      [type="checkbox"] {
+        box-sizing: border-box;
+        padding: 0;
+      }
+
+      :is([dir="ltr"] form input[type="checkbox"]) {
+        margin-right: 1.111rem;
+      }
+
+      [type="checkbox"]:checked {
+        border-color: transparent;
+        background-color: currentColor;
+        background-size: 100% 100%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+      }
+
+      [type="checkbox"]:checked {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+      }
+
+      .checked\:bg-blue:checked {
+        --tw-bg-opacity: 1;
+        background-color: #000;
+      }
+
+      .checked\:ring-0:checked {
+        --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0
+          var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0
+          calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+          var(--tw-shadow, 0 0 #0000);
+      }
+
+      .checked\:ring-offset-0:checked {
+        --tw-ring-offset-width: 0px;
+      }
+
+      .block {
+        display: block;
+      }
+
+      .bg-\[length\:14px_14px\] {
+        background-size: 14px 14px;
+      }
+
+      .text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+      }
+
+      @media (min-width: 1024px) {
+        .lg\:text-lg {
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+        }
+      }
+
+      #telephone {
+        padding-left: 6rem !important;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+
+      a {
+        background-color: transparent;
+      }
+
+      a {
+        color: currentColor;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+      }
+
+      .Link_link__qbLha {
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .markets24RegisterForm_link_styling__emgiX a {
+        --tw-text-opacity: 1 !important;
+        color: rgb(30 189 226 / var(--tw-text-opacity)) !important;
+      }
+
+      a:hover {
+        cursor: pointer;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+      }
+
+      .react-tel-input * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+      }
+
+      .react-tel-input .special-label {
+        position: absolute;
+        z-index: 1;
+        font-size: 13px;
+        left: 46px;
+        top: -8px;
+        background: #fff;
+        padding: 0 2px;
+      }
+
+      .react-tel-input .special-label {
+        display: none;
+        white-space: nowrap;
+      }
+
+      [type="tel"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: #fff;
+        border-color: #6b7280;
+        border-width: 1px;
+        border-radius: 0;
+        padding: 0.5rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        --tw-shadow: 0 0 #0000;
+      }
+
+      .error {
+        font-size: 14px;
+        color: red;
+      }
+
+      .react-tel-input .form-control {
+        position: relative;
+        font-size: 14px;
+        letter-spacing: 0.01rem;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-left: 48px;
+        margin-left: 0;
+        background: #fff;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+        line-height: 25px;
+        height: 35px;
+        width: 300px;
+        outline: none;
+      }
+
+      .react-tel-input .form-control.form-control {
+        margin-top: 1rem !important;
+        height: auto !important;
+        width: 100% !important;
+        border-radius: 10px !important;
+        border-width: 1px !important;
+        --tw-border-opacity: 1 !important;
+        border-color: rgb(218 222 229 / var(--tw-border-opacity)) !important;
+        --tw-bg-opacity: 1 !important;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+        padding: 16px 1rem 16px 3rem !important;
+        --tw-text-opacity: 1 !important;
+        color: rgb(51 48 65 / var(--tw-text-opacity)) !important;
+      }
+
+      .react-tel-input .flag-dropdown {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        border: 1px solid #cacaca;
+        border-radius: 3px 0 0 3px;
+      }
+
+      .react-tel-input .flag-dropdown.flag-dropdown {
+        top: auto;
+        height: 100%;
+        border-width: 0;
+        --tw-border-opacity: 1;
+        border-right-color: rgb(218 222 229 / var(--tw-border-opacity));
+        background-color: transparent;
+      }
+
+      :is([dir="ltr"] .react-tel-input .flag-dropdown.flag-dropdown) {
+        border-right-width: 1px;
+      }
+
+      .react-tel-input .flag-dropdown:hover {
+        cursor: pointer;
+      }
+
+      [role="button"] {
+        cursor: pointer;
+      }
+
+      .react-tel-input .selected-flag {
+        outline: none;
+        position: relative;
+        width: 38px;
+        height: 59px;
+        padding: 0 0 0 8px;
+        border-radius: 3px 0 0 3px;
+      }
+
+      .react-tel-input .selected-flag:hover {
+        background: transparent !important;
+      }
+
+      .react-tel-input .selected-flag:hover {
+        background-color: #fff;
+      }
+
+      .react-tel-input .flag {
+        width: 16px;
+        height: 11px;
+        background-image: url(data:image/png;base64,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);
+      }
+
+      .react-tel-input .ro {
+        background-position: -224px -110px;
+      }
+
+      .react-tel-input .selected-flag .flag {
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+      }
+
+      .react-tel-input .selected-flag .arrow {
+        position: relative;
+        top: 50%;
+        margin-top: -2px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        border-top: 4px solid #555;
+      }
+
+      /* These were inline style tags. Uses id+class to override almost everything */
+      #style-F2MrN.style-F2MrN {
+        color: rgb(51, 48, 65);
+      }
+
+      #style-U7HMf.style-U7HMf {
+        color: rgb(30189226 / var(--tw-text-opacity));
+      }
+
+      #style-slwK2.style-slwK2 {
+        color: rgb(30189226 / var(--tw-text-opacity));
+      }
+
+      #style-GINSD.style-GINSD {
+        color: rgb(30189226 / var(--tw-text-opacity));
+      }
+
+      #style-oHykK.style-oHykK {
+        color: rgb(30189226 / var(--tw-text-opacity));
+      }
+
+      #style-Z85Tg.style-Z85Tg {
+        color: rgb(30189226 / var(--tw-text-opacity));
+      }
+
+      #style-COJLV.style-COJLV {
+        color: rgb(30189226 / var(--tw-text-opacity));
+      }
+
+      #style-Qb8T5.style-Qb8T5 {
+        color: rgb(30189226 / var(--tw-text-opacity));
+      }
+
+      #submit-button.submit-button {
+        background-color: #190787;
+        font-weight: 700;
+      }
+
+      .submit-button.disabled {
+        background-color: #ccc !important;
+        cursor: not-allowed !important;
+      }
+
+      .intl-tel-input.allow-dropdown .flag-container,
+      .intl-tel-input.separate-dial-code .flag-container {
+        height: 60px;
+      }
+
+      .intl-tel-input .flag-container {
+        top: auto;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="assets/js/vanilla-cookieconsent/dist/cookieconsent.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/assets/css/bootstrap.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="index.html" class="logo"><img src="assets/img/Logo.svg" /></a>
+            <div class="lang">
+              <span class="arrow"></span>
+              <img
+                class="langflag"
+                height="26"
+                src="assets/img/flag.svg"
+                alt=""
+              />
+              <span class="langcode">EN</span>
+              <span class="langcountry">English</span>
+              <div class="lang-options">
+                <div>
+                  <a
+                    ><img
+                      class="langflag"
+                      height="26"
+                      src="assets/img/flag.svg"
+                      alt=""
+                    />&nbsp; English</a
+                  >
+                </div>
+                <div>
+                  <a
+                    ><img
+                      class="langflag"
+                      height="26"
+                      src="assets/img/langSpanish.svg"
+                      alt=""
+                    />&nbsp; Spanish</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <a id="menubutton"></a>
+            <ul class="mainmenu">
+              <li class="abc only-tablet">
+                <ul class="mainmenu">
+                  <li class="menu-item-has-children" id="tablet-login-btn">
+                    <a class="buttons outline" href="VIPClub.html#">Log In</a>
+                    <ul class="sub-menu">
+                      <li><a href="login.html">Personal Zone</a></li>
+                      <li>
+                        <a href="https://web.24markets.com/en/sign/in"
+                          >Trading Platform</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <a class="buttons inline" href="register.html">Sign Up</a>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="VIPClub.html#">Markets</a>
+                <ul class="sub-menu">
+                  <li><a href="forex.html">Forex</a></li>
+                  <li><a href="stocks.html">Stocks</a></li>
+                  <li><a href="commodities.html">Commodities</a></li>
+                  <li><a href="indices.html">Indices</a></li>
+                  <li><a href="crypto.html">Crypto</a></li>
+                </ul>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="VIPClub.html#">Trading</a>
+                <ul class="sub-menu showblocks">
+                  <div class="colblock">
+                    <li>Platforms</li>
+                    <li><a href="webtrader.html">WebTrader</a></li>
+                    <li><a href="app.html">App</a></li>
+                    <li><a href="mt5.html">MetaTrader 5</a></li>
+                  </div>
+                  <div class="colblock">
+                    <li>Features</li>
+                    <li><a href="copy-trading.html">CopyTrading</a></li>
+                    <li><a href="trading-tools.html">Trading Tools</a></li>
+                    <li><a href="cfd-trading.html">CFD Trading</a></li>
+                  </div>
+                  <div class="colblock">
+                    <li>Trading Info</li>
+                    <li><a href="account-types.html">Account Types </a></li>
+                    <!-- <li>
+                      <a href="./economic-calendar.html">Economic Calendar</a>
+                    </li> -->
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://cdn.24markets.com/docs/en/assets.pdf"
+                        >CFD Asset List</a
+                      >
+                    </li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="menu-item-has-children">
+                <a href="VIPClub.html#">Learn</a>
+                <ul class="sub-menu">
+                  <!-- <!-- <li>
+                    <a href="./education-centre.html">Education Centre</a>
+                  </li> -->
+                  <!-- <li><a href="./news.html">News </a></li> -->
+                  <li><a href="trading-hours.html">Market Hours</a></li>
+
+                  <li><a href="trading-basics.html">Trading Basics</a></li>
+                  <li><a href="glossary.html">Glossary</a></li>
+                </ul>
+              </li>
+
+              <li class="menu-item-has-children">
+                <a href="VIPClub.html#">Partners</a>
+                <ul class="sub-menu">
+                  <li><a href="partners.html">Become a partner</a></li>
+                  <li><a href="ib.html">IB</a></li>
+                  <li><a href="affiliate.html">Affiliate</a></li>
+                </ul>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="VIPClub.html#">About</a>
+                <ul class="sub-menu showblocks">
+                  <div class="colblock">
+                    <li>About <strong>24markets.</strong>com</li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="why-us.html">Why 24markets.com</a></li>
+                    <!-- <li><a href="./careers.html">Careers </a></li> -->
+                  </div>
+                  <div class="colblock">
+                    <li>Help & Support</li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="regulation.html">Regulation Center</a></li>
+                    <li>
+                      <a href="cookie-disclosure.html">Cookie Disclosure </a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+            </ul>
+            <div id="header-login-signup">
+              <ul class="mainmenu">
+                <li class="menu-item-has-children" id="tablet-login-btn">
+                  <a class="buttons outline" href="VIPClub.html#">Log In</a>
+                  <ul class="sub-menu">
+                    <li><a href="login.html">Personal Zone</a></li>
+                    <li>
+                      <a href="https://web.24markets.com/en/sign/in"
+                        >Trading Platform</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <div class="toplinks">
+                <a class="buttons inline" href="register.html">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="grid-container">
+      <!-- SECTION ZERO -->
+      <section id="section-zero">
+        <p class="wow fadeInDown" data-wow-duration="1s">24 VIP Club</p>
+        <div class="wow fadeInRight">
+          <div>
+            <img src="assets/img/VIPClub/sectionZero/SVG/gift.svg" />
+            <span>Higher Bonus</span>
+          </div>
+          <div>
+            <img src="assets/img/VIPClub/sectionZero/SVG/arrow.svg" />
+            <span>Rebates</span>
+          </div>
+          <div>
+            <img src="assets/img/VIPClub/sectionZero/SVG/Crown.svg" />
+            <span>Exclusive VIP Member Benefits</span>
+          </div>
+        </div>
+        <div class="btn-join-club btn-gnrl wow tada">
+          <span class="btn-redirect-register">Join Club Now</span>
+        </div>
+        <p class="trade-wisely wow fadeInUp">
+          Trading CFDs carries a considerable risk of capital loss. Please trade
+          wisely.
+        </p>
+        <p class="tcs wow fadeInUp">T&Cs apply</p>
+
+        <div class="section-zero-container-images">
+          <img
+            src="assets/img/VIPClub/sectionZero/candlestick&#32;3d.webp"
+            class="wow pulse infinite"
+            data-wow-duration="1s"
+          />
+          <img
+            src="assets/img/VIPClub/sectionZero/3d&#32;&#32;graph.webp"
+            class="wow pulse infinite"
+            data-wow-duration="1.2s"
+          />
+          <img
+            src="assets/img/VIPClub/sectionZero/background.webp"
+            class="bg-desktop"
+          />
+        </div>
+      </section>
+
+      <!-- SECTION ONE -->
+      <section id="section-one">
+        <p class="header-section wow fadeInLeft">
+          Club Member’s Exclusive Benefits
+        </p>
+
+        <div class="section-one-container-boxes">
+          <div class="wow flipInX">
+            <div class="section-one-box-img">
+              <img src="assets/img/VIPClub/sectionOne/1giftbox.webp" />
+            </div>
+            <div class="section-one-box-text">
+              <p>Up to</p>
+              <p>100% Bonus</p>
+            </div>
+          </div>
+          <div class="wow flipInX">
+            <div class="section-one-box-img">
+              <img src="assets/img/VIPClub/sectionOne/2percentage.webp" />
+            </div>
+            <div class="section-one-box-text">
+              <p>Up to</p>
+              <p>30% Spread Rebate</p>
+            </div>
+          </div>
+          <div class="wow flipInX">
+            <div class="section-one-box-img">
+              <img src="assets/img/VIPClub/sectionOne/hourglass.webp" />
+            </div>
+            <div class="section-one-box-text">
+              <p>Birthday Treat</p>
+              <p>Up to 100 cash payment</p>
+            </div>
+          </div>
+          <div class="wow flipInX">
+            <div class="section-one-box-img">
+              <img src="assets/img/VIPClub/sectionOne/4arrows.webp" />
+            </div>
+            <div class="section-one-box-text">
+              <p>Premium</p>
+              <p>Trading Analysis</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-one-container-acc-cards">
+          <div class="acctypes">
+            <div class="typesAcc">
+              <div class="row">
+                <div class="col-md-4 account-types-col-md-4 acc-types-cl-md-4">
+                  <div class="AccCards card-silver">
+                    <div class="price price-silver">
+                      <strong>Silver</strong>
+                    </div>
+                    <ul>
+                      <li>
+                        <span>Deposit required</span>
+                        <span>$5 000</span>
+                      </li>
+                      <li>
+                        <span>Daily Analysis</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Trading Central Analysis</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Desktop & Mobile Trader</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Chat customer support</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Negative Balance protection</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Margin Call Notifications*</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Stop out level</span>
+                        <span>50%</span>
+                      </li>
+                      <li>
+                        <span>Senior Account Manager</span>
+                        <span>Weekly</span>
+                      </li>
+                      <li>
+                        <span>Higher bonus levels</span>
+                        <span>20%</span>
+                      </li>
+                      <li>
+                        <span>Rebates</span>
+                        <span>10%</span>
+                      </li>
+                      <li>&nbsp;</li>
+                    </ul>
+                    <a href="register.html" class="btn-open-acc-silver"
+                      >Open Account</a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-4 account-types-col-md-4 acc-types-cl-md-4">
+                  <div class="AccCards card-gld">
+                    <div class="price price-gold">
+                      <strong>Gold </strong>
+                    </div>
+                    <ul>
+                      <li>
+                        <span>Deposit required</span>
+                        <span>$25 000</span>
+                      </li>
+                      <li>
+                        <span>Daily Analysis</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Trading Central Analysis</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Desktop & Mobile Trader</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Chat customer support</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Negative Balance protection</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Margin Call Notifications*</span> <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Stop out level</span>
+                        <span>40%</span>
+                      </li>
+                      <li>
+                        <span>Senior Account Manager</span>
+                        <span>Daily</span>
+                      </li>
+                      <li>
+                        <span>Birthday Gift:</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Higher bonus levels</span>
+                        <span>50%</span>
+                      </li>
+                      <li><span>Rebates</span> <span>20%</span></li>
+                    </ul>
+                    <a href="register.html">Open Account</a>
+                  </div>
+                </div>
+
+                <div class="col-md-4 account-types-col-md-4 acc-types-cl-md-4">
+                  <div class="AccCards">
+                    <div class="price price-platinum">
+                      <strong>Platinum</strong>
+                    </div>
+                    <ul>
+                      <li>
+                        <span>Deposit required</span>
+                        <span>$50 000</span>
+                      </li>
+                      <li>
+                        <span>Daily Analysis</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Trading Central Analysis</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Desktop & Mobile Trader</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Chat customer support</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Negative Balance protection</span>
+                        <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Margin Call Notifications*</span> <span>Yes</span>
+                      </li>
+                      <li>
+                        <span>Stop out level</span>
+                        <span>20%</span>
+                      </li>
+                      <li>
+                        <span>Senior Account Manager</span>
+                        <span>Daily</span>
+                      </li>
+
+                      <li>
+                        <span>Birthday Gift</span>
+                        <span>Yes</span>
+                      </li>
+
+                      <li>
+                        <span>Higher bonus levels</span>
+                        <span>100%</span>
+                      </li>
+
+                      <li><span>Rebates</span> <span>30%</span></li>
+                    </ul>
+
+                    <a href="register.html">Open Account</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION TWO -->
+      <section id="section-two">
+        <p class="header-section">
+          Enjoy Exclusive Member Benefits at Every Tier
+        </p>
+        <div class="section-two-container">
+          <div class="wow flipInX">
+            <div>
+              <img src="assets/img/VIPClub/sectionTwo/Week&#32;ahead.webp" />
+            </div>
+            <div>
+              <p>Week ahead</p>
+              <p>Upcoming week's market trends, events and news</p>
+            </div>
+          </div>
+          <div class="wow flipInX">
+            <div>
+              <img src="assets/img/VIPClub/sectionTwo/Morning&#32;Note.webp" />
+            </div>
+            <div>
+              <p>Morning note</p>
+              <p>
+                Daily report and analysis distributed by financial institution
+              </p>
+            </div>
+          </div>
+          <div class="wow flipInX">
+            <div>
+              <img src="assets/img/VIPClub/sectionTwo/trading&#32;center.webp" />
+            </div>
+            <div>
+              <p>Trading Central Analysis</p>
+              <p>
+                In-depth analysis, actionable insights, informed decisions based
+                on expert guidance
+              </p>
+            </div>
+          </div>
+          <div class="wow flipInX">
+            <div>
+              <img src="assets/img/VIPClub/sectionTwo/webinar.webp" />
+            </div>
+            <div>
+              <p>Webinar</p>
+              <p>
+                Learn about trading strategies, technical analysis and risk
+                management
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="btn-register-now btn-gnrl wow tada btn-redirect-register">
+          Register Now
+        </div>
+        <p class="trade-wisely">
+          Trading CFDs carries a considerable risk of capital loss. Please trade
+          wisely.
+        </p>
+      </section>
+
+      <!-- SECTION THREE -->
+      <section id="section-three">
+        <p class="header-section wow fadeInLeft">
+          How does 24marketsclub work?
+        </p>
+
+        <p class="wow fadeInRight">
+          Join the global community of traders at 24Markets.com for a dynamic
+          and innovative trading experience. Access cutting-edge tools,
+          resources, and a supportive environment to trade confidently.
+        </p>
+
+        <div class="section-three-container">
+          <div class="section-three-box wow flipInX" data-wow-delay="1s">
+            <img src="assets/img/VIPClub/sectionThree/Register.svg" />
+            <p>1. Register</p>
+            <p>
+              Be part of the 24markets Club to claim your rewards your account!
+            </p>
+            <div class="btn-section-three-box btn-gnrl btn-redirect-register">
+              Register Now
+            </div>
+          </div>
+          <div>
+            <img
+              src="assets/img/VIPClub/sectionThree/right-arrow&#32;(4)&#32;copy.png"
+              class="img-arrow wow fadeInLeft"
+              data-wow-duration="1s"
+            />
+          </div>
+          <div class="section-three-box wow flipInX" data-wow-delay="1.4s">
+            <img src="assets/img/VIPClub/sectionThree/Deposit.svg" />
+            <p>2. Deposit</p>
+            <p>
+              The amount of deposit will decide the MarketsClub tier you're in.
+            </p>
+            <div class="btn-section-three-box btn-gnrl btn-redirect-register">
+              Deposit Now
+            </div>
+          </div>
+          <div>
+            <img
+              src="assets/img/VIPClub/sectionThree/right-arrow&#32;(4)&#32;copy.png"
+              class="img-arrow wow fadeInLeft"
+              data-wow-duration="2s"
+            />
+          </div>
+          <div class="section-three-box wow flipInX" data-wow-delay="1.8s">
+            <img src="assets/img/VIPClub/sectionThree/Candlestici.svg" />
+            <p>3. Start Trading</p>
+            <p>Contact our live support agent to claim rewards!</p>
+            <div class="btn-section-three-box btn-gnrl btn-redirect-register">
+              Start Trading
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION FOUR -->
+      <!-- <section id="section-four">
+        <div class="wow fadeInLeft">
+          <div>
+            <p>Frequently asked questions</p>
+            <p>Read our full FAQ section here →</p>
+            <img
+              src="/assets/img/VIPClub/sectionFour/box.webp"
+              class="wow tada"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            />
+          </div>
+        </div>
+
+        <div class="wow fadeInRight">
+          <div>
+            <div class="question">
+              Am I eligible to be part of the program?
+              <img
+                src="/assets/img/VIPClub/sectionFour/arrow-down-sign-to-navigate.png"
+              />
+              <p class="answer hide-answer">
+                To claim your rewards, simply contact our support team. Access
+                live chat by clicking on the icon located at the bottom right
+                corner on our website or go to Account > Support > Live Chat on
+                our app.
+              </p>
+            </div>
+            <div class="question">
+              How to become a Club Member?
+              <img
+                src="/assets/img/VIPClub/sectionFour/arrow-down-sign-to-navigate.png"
+              />
+              <p class="answer hide-answer">
+                To claim your rewards, simply contact our support team. Access
+                live chat by clicking on the icon located at the bottom right
+                corner on our website or go to Account > Support > Live Chat on
+                our app.
+              </p>
+            </div>
+            <div class="question">
+              How do I check the tier I am in?
+              <img
+                src="/assets/img/VIPClub/sectionFour/arrow-down-sign-to-navigate.png"
+              />
+              <p class="answer hide-answer">
+                To claim your rewards, simply contact our support team. Access
+                live chat by clicking on the icon located at the bottom right
+                corner on our website or go to Account > Support > Live Chat on
+                our app.
+              </p>
+            </div>
+            <div class="question">
+              How do I get lower Stop Out Level?
+              <img
+                src="/assets/img/VIPClub/sectionFour/arrow-down-sign-to-navigate.png"
+              />
+              <p class="answer hide-answer">
+                To claim your rewards, simply contact our support team. Access
+                live chat by clicking on the icon located at the bottom right
+                corner on our website or go to Account > Support > Live Chat on
+                our app.
+              </p>
+            </div>
+            <div class="question">
+              How do I get access to Market Depth?
+              <img
+                src="/assets/img/VIPClub/sectionFour/arrow-down-sign-to-navigate.png"
+              />
+              <p class="answer hide-answer">
+                To claim your rewards, simply contact our support team. Access
+                live chat by clicking on the icon located at the bottom right
+                corner on our website or go to Account > Support > Live Chat on
+                our app.
+              </p>
+            </div>
+            <div class="question">
+              How do I claim my rewards?
+              <img
+                src="/assets/img/VIPClub/sectionFour/arrow-down-sign-to-navigate.png"
+                class="rotate"
+              />
+              <p class="answer show-answer">
+                To claim your rewards, simply contact our support team. Access
+                live chat by clicking on the icon located at the bottom right
+                corner on our website or go to Account > Support > Live Chat on
+                our app.
+              </p>
+            </div>
+            <div class="question">
+              How do I get in touch with the Managers?
+              <img
+                src="/assets/img/VIPClub/sectionFour/arrow-down-sign-to-navigate.png"
+              />
+              <p class="answer hide-answer">
+                To claim your rewards, simply contact our support team. Access
+                live chat by clicking on the icon located at the bottom right
+                corner on our website or go to Account > Support > Live Chat on
+                our app.
+              </p>
+            </div>
+          </div>
+          <p>More Questions →</p>
+        </div>
+      </section> -->
+
+      <!-- SECTION FIVE -->
+      <section id="section-five">
+        <div class="wow flipInX">
+          <img src="assets/img/VIPClub/sectionFive/simply&#32;safe.webp" />
+          <p>Simply Safe</p>
+          <p>Trader & Company funds</p>
+          <p>are segregated</p>
+        </div>
+        <div class="wow flipInX" data-wow-delay="0.8s">
+          <img src="assets/img/VIPClub/sectionFive/simply&#32;regulated.webp" />
+          <p>Simply Regulated</p>
+          <p>Regulated by FSCA</p>
+          <p>(Financial Sector Conduct Authority)</p>
+        </div>
+        <div class="wow flipInX" data-wow-delay="1.1s">
+          <img src="assets/img/VIPClub/sectionFive/simply&#32;secure.webp" />
+          <p>Simply Secure</p>
+          <p>Complaint with data</p>
+          <p>security standards</p>
+        </div>
+      </section>
+
+      <!-- SECTION SIX -->
+      <section id="section-six">
+        <div class="wow fadeInUp">
+          <img src="assets/img/VIPClub/sectionSix/exchange.webp" />
+          <img src="assets/img/VIPClub/sectionSix/Natgas.webp" />
+          <img src="assets/img/VIPClub/sectionSix/tesla.webp" />
+          <img src="assets/img/VIPClub/sectionSix/spotify.webp" />
+          <img src="assets/img/VIPClub/sectionSix/meta.webp" />
+          <img src="assets/img/VIPClub/sectionSix/candlestics.webp" />
+          <div>
+            <img src="assets/img/VIPClub/sectionSix/phone&#32;mockup.webp" />
+          </div>
+        </div>
+        <div class="wow fadeInUp">
+          <!-- <div>
+                    <p>Ready to trade?</p>
+                    <p>Create an account</p>
+                    <p class="section-six-label">E-mail</p>
+                    <input type="text" class="section-six-input" placeholder="Email@example.com"></input>
+                    <p class="section-six-label">Password</p>
+                    <input type="text" class="section-six-input" placeholder="Select Password"></input>
+                    <div class="section-six-btn-create-account btn-gnrl">Create an account</div>
+                    <div class="section-six-container-image">
+                        <img src="/assets/img/VIPClub/sectionSix/icon 1.webp" />
+                        <img src="/assets/img/VIPClub/sectionSix/icon.webp" />
+                        <img src="/assets/img/VIPClub/sectionSix/icon 3.webp" />
+                    </div>
+                    <p class="section-six-privacy-policy">By creating an account, you agree to our Privacy policy, our
+                        Cookie Policy and to receive email
+                        marketing materials in which you can opt out at any time. You will be able to manage and change
+                        your preferences in the Notifications settings in your account.
+                        Trading CFDs carries considerable risk of capital loss. Please trade wisely.</p>
+                </div> -->
+          <div class="newForm">
+            <form class="form" action="VIPClub.html#">
+              <div
+                class="grid grid-rows-1 grid-cols-2 gap-[15px] md:gap-[27px] mt-[19px]"
+              >
+                <div class="w-full flex flex-col justify-start">
+                  <input
+                    name="firstname"
+                    id="firstname"
+                    placeholder="First Name"
+                    class="w-full py-[16px] px-4 rounded-[10px] bg-white border-[1px] text-black focus:ring-0 focus:outline-none focus:border-[1px] border-lightGray focus:focus-visible:border-lightGray"
+                    value=""
+                  />
+                </div>
+                <div class="w-full flex flex-col justify-start">
+                  <input
+                    name="lastname"
+                    id="lastname"
+                    placeholder="Last Name"
+                    class="w-full py-[16px] px-4 rounded-[10px] bg-white border-[1px] text-black focus:ring-0 focus:outline-none focus:border-[1px] border-lightGray focus:focus-visible:border-lightGray"
+                  />
+                </div>
+              </div>
+              <div
+                class="grid grid-rows-1 grid-cols-2 gap-[15px] md:gap-[27px] mt-[19px]"
+                style="margin-top: 15px"
+              >
+                <div class="w-full flex flex-col justify-start">
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Email Address"
+                    class="w-full h-full py-[16px] px-4 rounded-[10px] bg-white border-[1px] text-black focus:ring-0 focus:outline-none focus:border-[1px] border-lightGray focus:focus-visible:border-lightGray"
+                  />
+                </div>
+                <div class="w-full flex flex-col justify-start">
+                  <input
+                    name="password"
+                    id="password"
+                    type="password"
+                    placeholder="Password"
+                    class="w-full py-[16px] px-4 rounded-[10px] bg-white border-[1px] text-black focus:ring-0 focus:outline-none focus:border-[1px] border-lightGray focus:focus-visible:border-lightGray"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="grid grid-rows-1 grid-cols-1 gap-[15px] md:gap-[27px] mt-[19px]"
+              >
+                <!-- TELEPHONE -->
+                <div class="w-full flex flex-col justify-start">
+                  <input
+                    type="tel"
+                    id="telephone"
+                    style="
+                      --tw-border-opacity: 1 !important;
+                      border-color: rgb(
+                        218 222 229 / var(--tw-border-opacity)
+                      ) !important;
+                      border-radius: 10px !important;
+                    "
+                  />
+                </div>
+              </div>
+              <!-- country here -->
+              <div class="mt-[19px]" style="display: none">
+                <div class="w-full flex flex-col justify-start">
+                  <label
+                    for="country"
+                    class="text-black text-lg hidden lg:block"
+                  >
+                    Country:
+                  </label>
+                  <select
+                    name="country"
+                    id="country"
+                    class="w-full py-[16px] px-4 rounded-[10px] bg-white border-[1px] text-black focus:ring-0 focus:outline-none focus:border-[1px] border-lightGray focus:border-lightGray focus-visible:border-lightGray false"
+                  >
+                    <option value="1">Afghanistan</option>
+                    <option value="2">Albania</option>
+                    <option value="3">Algeria</option>
+                    <option value="266">American Samoa</option>
+                    <option value="5">Andorra</option>
+                    <option value="6">Angola</option>
+                    <option value="7">Anguilla</option>
+                    <option value="8">Antarctica</option>
+                    <option value="9">Antigua and Barbuda</option>
+                    <option value="11">Argentina</option>
+                    <option value="12">Armenia</option>
+                    <option value="13">Aruba</option>
+                    <option value="249">Ascension Island</option>
+                    <option value="14">Australia</option>
+                    <option value="15">Austria</option>
+                    <option value="16">Azerbaijan</option>
+                    <option value="17">Bahamas</option>
+                    <option value="18">Bahrain</option>
+                    <option value="19">Bangladesh</option>
+                    <option value="20">Barbados</option>
+                    <option value="21">Belarus</option>
+                    <option value="22">Belgium</option>
+                    <option value="23">Belize</option>
+                    <option value="24">Benin</option>
+                    <option value="25">Bermuda</option>
+                    <option value="26">Bhutan</option>
+                    <option value="27">Bolivia</option>
+                    <option value="250">Bonaire</option>
+                    <option value="268">Bosnia and Herzegovina</option>
+                    <option value="29">Botswana</option>
+                    <option value="32">Brazil</option>
+                    <option value="33">British Indian Ocean Territory</option>
+                    <option value="269">Brunei Darussalam</option>
+                    <option value="35">Bulgaria</option>
+                    <option value="36">Burkina Faso</option>
+                    <option value="37">Burundi</option>
+                    <option value="38">Cambodia</option>
+                    <option value="39">Cameroon</option>
+                    <option value="40">Canada</option>
+                    <option value="41">Cape Verde</option>
+                    <option value="42">Cayman Islands</option>
+                    <option value="43">Central African Republic</option>
+                    <option value="44">Chad</option>
+                    <option value="251">Channel Islands</option>
+                    <option value="45">Chile</option>
+                    <option value="46">China</option>
+                    <option value="47">Christmas Island</option>
+                    <option value="48">Cocos (Keeling) Islands</option>
+                    <option value="49">Colombia</option>
+                    <option value="50">Comoros</option>
+                    <option value="51">Congo</option>
+                    <option value="52">Cook Islands</option>
+                    <option value="53">Costa Rica</option>
+                    <option value="55">Croatia</option>
+                    <option value="56">Cuba</option>
+                    <option value="57">Cyprus</option>
+                    <option value="58">Czech Republic</option>
+                    <option value="59">Denmark</option>
+                    <option value="60">Djibouti</option>
+                    <option value="61">Dominica</option>
+                    <option value="62">Dominican Republic</option>
+                    <option value="63">East Timor&nbsp;(Timor-Leste)</option>
+                    <option value="64">Ecuador</option>
+                    <option value="65">Egypt</option>
+                    <option value="66">El Salvador</option>
+                    <option value="67">Equatorial Guinea</option>
+                    <option value="69">Eritrea</option>
+                    <option value="70">Estonia</option>
+                    <option value="71">Ethiopia</option>
+                    <option value="72">Falkland Islands</option>
+                    <option value="73">Faroe Islands</option>
+                    <option value="144">Federal States of Micronesia</option>
+                    <option value="75">Fiji</option>
+                    <option value="76">Finland</option>
+                    <option value="77">France</option>
+                    <option value="79">French Guiana</option>
+                    <option value="81">French Polynesia</option>
+                    <option value="270">French Southern Territories</option>
+                    <option value="84">Gabon</option>
+                    <option value="85">Gambia</option>
+                    <option value="86">Georgia</option>
+                    <option value="87">Germany</option>
+                    <option value="88">Ghana</option>
+                    <option value="89">Gibraltar</option>
+                    <option value="90">Greece</option>
+                    <option value="91">Greenland</option>
+                    <option value="92">Grenada</option>
+                    <option value="93">Guadeloupe</option>
+                    <option value="94">Guam</option>
+                    <option value="95">Guatemala</option>
+                    <option value="255">Guernsey</option>
+                    <option value="96">Guinea</option>
+                    <option value="97">Guinea-Bissau</option>
+                    <option value="98">Guyana</option>
+                    <option value="99">Haiti</option>
+                    <option value="100">Heard and McDonald Islands</option>
+                    <option value="101">Honduras</option>
+                    <option value="271">Hong Kong</option>
+                    <option value="103">Hungary</option>
+                    <option value="31">Iceland</option>
+                    <option value="105">India</option>
+                    <option value="106">Indonesia</option>
+                    <option value="107">Iran</option>
+                    <option value="108">Iraq</option>
+                    <option value="109">Ireland</option>
+                    <option value="282">Isle of man</option>
+                    <option value="110">Israel</option>
+                    <option value="111">Italy</option>
+                    <option value="54">Ivory Coast</option>
+                    <option value="112">Jamaica</option>
+                    <option value="113">Japan</option>
+                    <option value="256">Jersey</option>
+                    <option value="114">Jordan</option>
+                    <option value="272">Kazakhstan</option>
+                    <option value="116">Kenya</option>
+                    <option value="117">Kiribati</option>
+                    <option value="118">Korea (North)</option>
+                    <option value="273">Korea, South</option>
+                    <option value="283">Kosovo</option>
+                    <option value="120">Kuwait</option>
+                    <option value="121">Kyrgyzstan</option>
+                    <option value="122">
+                      Laos Peoples Democratic Republic
+                    </option>
+                    <option value="123">Latvia</option>
+                    <option value="124">Lebanon</option>
+                    <option value="125">Lesotho</option>
+                    <option value="126">Liberia</option>
+                    <option value="127">Libya</option>
+                    <option value="128">Liechtenstein</option>
+                    <option value="129">Lithuania</option>
+                    <option value="130">Luxembourg</option>
+                    <option value="131">Macao</option>
+                    <option value="132">Madagascar</option>
+                    <option value="133">Malawi</option>
+                    <option value="134">Malaysia</option>
+                    <option value="135">Maldives</option>
+                    <option value="136">Mali</option>
+                    <option value="137">Malta</option>
+                    <option value="138">Marshall Islands</option>
+                    <option value="139">Martinique</option>
+                    <option value="140">Mauritania</option>
+                    <option value="141">Mauritius</option>
+                    <option value="142">Mayotte</option>
+                    <option value="143">Mexico</option>
+                    <option value="275">Moldova</option>
+                    <option value="276">Monaco</option>
+                    <option value="147">Mongolia</option>
+                    <option value="277">Montenegro</option>
+                    <option value="148">Montserrat</option>
+                    <option value="149">Morocco</option>
+                    <option value="150">Mozambique</option>
+                    <option value="151">Myanmar, Burma</option>
+                    <option value="152">Namibia</option>
+                    <option value="153">Nauru</option>
+                    <option value="154">Nepal</option>
+                    <option value="155">Netherlands</option>
+                    <option value="156">Netherlands Antilles</option>
+                    <option value="157">New Caledonia</option>
+                    <option value="158">New Zealand</option>
+                    <option value="159">Nicaragua</option>
+                    <option value="160">Niger</option>
+                    <option value="161">Nigeria</option>
+                    <option value="162">Niue</option>
+                    <option value="163">Norfolk Island</option>
+                    <option value="83">North Macedonia</option>
+                    <option value="164">Northern Mariana Islands</option>
+                    <option value="165">Norway</option>
+                    <option value="166">Oman</option>
+                    <option value="167">Pakistan</option>
+                    <option value="168">Palau</option>
+                    <option value="169">Panama</option>
+                    <option value="170">Papua New Guinea</option>
+                    <option value="171">Paraguay</option>
+                    <option value="172">Peru</option>
+                    <option value="173">Philippines</option>
+                    <option value="174">Pitcairn Islands</option>
+                    <option value="175">Poland</option>
+                    <option value="176">Portugal</option>
+                    <option value="177">Puerto Rico</option>
+                    <option value="178">Qatar</option>
+                    <option value="179">Reunion Island</option>
+                    <option value="180">Romania</option>
+                    <option value="181">Russian Federation</option>
+                    <option value="182">Rwanda</option>
+                    <option value="183">Saint Helena</option>
+                    <option value="184">Saint Kitts and Nevis</option>
+                    <option value="186">Saint Lucia</option>
+                    <option value="263">Saint Martin</option>
+                    <option value="189">
+                      Saint Vincent and The Grenadines
+                    </option>
+                    <option value="191">San Marino</option>
+                    <option value="192">Sao Tome and Principe</option>
+                    <option value="194">Saudi Arabia</option>
+                    <option value="195">Senegal</option>
+                    <option value="265">Serbia</option>
+                    <option value="196">Seychelles</option>
+                    <option value="197">Sierra Leone</option>
+                    <option value="198">Singapore</option>
+                    <option value="199">Slovakia</option>
+                    <option value="200">Slovenia</option>
+                    <option value="201">Solomon Islands</option>
+                    <option value="202">Somalia</option>
+                    <option value="203">South Africa</option>
+                    <option value="204">
+                      South Georgia and South Sandwich Islands
+                    </option>
+                    <option value="205">Spain</option>
+                    <option value="206">Sri Lanka</option>
+                    <option value="278">State of Palestine</option>
+                    <option value="207">Sudan</option>
+                    <option value="208">Suriname</option>
+                    <option value="209">Svalbard and Jan Mayen Islands</option>
+                    <option value="210">Swaziland</option>
+                    <option value="211">Sweden</option>
+                    <option value="212">Switzerland</option>
+                    <option value="213">Syrian Arab Republic</option>
+                    <option value="214">Taiwan (Republic of China)</option>
+                    <option value="215">Tajikistan</option>
+                    <option value="216">Tanzania</option>
+                    <option value="217">Thailand</option>
+                    <option value="218">Togo</option>
+                    <option value="219">Tokelau</option>
+                    <option value="220">Tonga</option>
+                    <option value="221">Trinidad and Tobago</option>
+                    <option value="222">Tunisia</option>
+                    <option value="223">Turkey</option>
+                    <option value="224">Turkmenistan</option>
+                    <option value="225">Turks and Caicos Islands</option>
+                    <option value="226">Tuvalu</option>
+                    <option value="232">U.S. Minor Outlying Islands</option>
+                    <option value="227">Uganda</option>
+                    <option value="228">Ukraine</option>
+                    <option value="229">United Arab Emirates</option>
+                    <option value="230">United Kingdom</option>
+                    <option value="231">United States</option>
+                    <option value="233">Uruguay</option>
+                    <option value="234">Uzbekistan</option>
+                    <option value="235">Vanuatu</option>
+                    <option value="236">Vatican City State</option>
+                    <option value="237">Venezuela</option>
+                    <option value="238">Vietnam</option>
+                    <option value="239">Virgin Islands (British)</option>
+                    <option value="240">Virgin Islands (U.S.)</option>
+                    <option value="241">Wallis And Futuna Islands</option>
+                    <option value="242">Western Sahara</option>
+                    <option value="243">Yemen</option>
+                    <option value="246">Zambia</option>
+                    <option value="247">Zimbabwe</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Currency -->
+              <select
+                name="currency"
+                id="currency"
+                style="display: none"
+                class="w-full py-[16px] px-4 rounded-[10px] bg-white border-[1px] text-black focus:ring-0 focus:outline-none focus:border-[1px] border-lightGray focus:border-lightGray focus-visible:border-lightGray false"
+              >
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+              </select>
+              <div class="mt-[30px] confirmAges">
+                <label>
+                  <div class="flex items-start">
+                    <input
+                      name="acceptConditions"
+                      type="checkbox"
+                      class="mr-4 mt-1 rounded-[5px] checked:bg-checkbox-icon bg-center border-lightGray checked:bg-blue checked:hover:bg-blue checked:focus:bg-blue bg-[length:20px_20px] border-1 w-[26px] h-[26px] focus:ring-0 focus:outline-none checked:ring-0 focus:ring-offset-0 checked:ring-offset-0"
+                      value="false"
+                    />
+                    <span
+                      class="block text-lg text-black markets24RegisterForm_link_styling__emgiX"
+                    >
+                      <span class="rich-text">
+                        <p>
+                          <span id="style-F2MrN" class="style-F2MrN">
+                            I have read and accept the
+                          </span>
+                          <a
+                            target="_blank"
+                            class="Link_link__qbLha undefined undefined"
+                            href="https://cdn.24markets.com/docs/en/TermsConditions.pdf"
+                          >
+                            <span class="twentFourLinks">
+                              Client Agreement
+                            </span>
+                          </a>
+                          <span id="style-slwK2" class="style-slwK2">, </span>
+                          <a
+                            target="_blank"
+                            class="Link_link__qbLha undefined undefined"
+                            href="https://cdn.24markets.com/docs/en/PrivacyPolicy.pdf"
+                          >
+                            <span class="twentFourLinks">
+                              Complaint Handling Policy
+                            </span>
+                          </a>
+                          <span id="style-oHykK" class="style-oHykK">, </span>
+                          <a
+                            target="_blank"
+                            class="Link_link__qbLha undefined undefined"
+                            href="regulation.html"
+                          >
+                            <span class="twentFourLinks">Privacy Policy</span>
+                          </a>
+                          <span id="style-oHykK" class="style-oHykK">, </span>
+                          <a
+                            target="_blank"
+                            class="Link_link__qbLha undefined undefined"
+                            href="https://cdn.24markets.com/docs/en/RiskDisclosure.pdf"
+                          >
+                            <span class="twentFourLinks"> Risk Disclosure</span>
+                          </a>
+                        </p>
+                      </span>
+                    </span>
+                  </div>
+                </label>
+              </div>
+              <button
+                class="rounded-[10px] text-white font-medium text-lg mt-12 flex items-center mt-40px w-full justify-between submit-button"
+                type="submit"
+                id="submit-button"
+              >
+                <span> Register Now </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 ml-10"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </button>
+              <div style="padding-top: 10px; display: none" id="error-message">
+                <p class="validation errorRegister" style="font-size: 16px">
+                  Something went wrong, please try again later.
+                </p>
+              </div>
+              <div
+                style="padding-top: 10px; display: none"
+                id="error-message-email"
+              >
+                <p class="validation errorRegister" style="font-size: 16px">
+                  Email already exists.
+                </p>
+              </div>
+              <div
+                class="markets24RegisterForm_link_styling__emgiX mt-9 lg:max-w-full max-w-[354px] lg:w-auto lg:text-left text-xl lg:text-sm false"
+              >
+                <span class="rich-text">
+                  <p>
+                    All trading carries risk. For more information, please refer
+                    to our
+                    <a
+                      target="_blank"
+                      class="Link_link__qbLha undefined undefined"
+                      href="https://cdn.24markets.com/docs/en/RiskDisclosure.pdf"
+                    >
+                      <span class="twentFourLinks"> Risk Disclosure</span>
+                    </a>
+                    .
+                  </p>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="footer" class="index-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="index.html" class="ftlogo"
+              ><img src="assets/img/Loginverted.svg"
+            /></a>
+
+            <div class="downloads footer-downloads">
+              <img src="assets/img/dwnld_1.svg" width="142" />
+              <img src="assets/img/dwnld_2.svg" width="142" />
+              <img src="assets/img/dwnld_3.svg" width="142" />
+              <img src="assets/img/dwnld_4.svg" width="142" />
+            </div>
+
+            <div class="contactin">
+              <h2>
+                Contact
+                <small
+                  ><a href="cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9cefe9ececf3eee8dcaea8f1fdeef7f9e8efb2fff3f1">[email&#160;protected]</a><br />
+                  +27 101 577 500</small
+                >
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <ul class="ftmenu">
+              <li>
+                <h2>Markets</h2>
+
+                <ul>
+                  <li><a href="forex.html">Forex</a></li>
+                  <li><a href="https://www.24markets.com/Stocks.html">Stocks</a></li>
+                  <li><a href="https://www.24markets.com/Commodities.html">Commodities</a></li>
+                  <li><a href="https://www.24markets.com/Indices.html">Indices</a></li>
+                  <li><a href="https://www.24markets.com/Crypto.html">Crypto</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <h2>Trading</h2>
+                <ul>
+                  <li><a href="trading-tools.html">Trading Tools</a></li>
+
+                  <li><a href="webtrader.html">Platforms</a></li>
+
+                  <li><a href="webtrader.html">Web Platform</a></li>
+
+                  <li><a href="app.html">App</a></li>
+
+                  <li><a href="mt5.html">MT5</a></li>
+
+                  <li><a href="cfd-trading.html">CFD Trading</a></li>
+
+                  <li>
+                    <a href="https://cdn.24markets.com/docs/en/assets.pdf"
+                      >CFD Asset List</a
+                    >
+                  </li>
+
+                  <li><a href="trading-basics.html">Trading Info</a></li>
+
+                  <li><a href="account-types.html">Account Types</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <h2>Learn</h2>
+                <ul>
+                  <li><a href="trading-basics.html">Trading Basics</a></li>
+
+                  <li><a href="glossary.html">Glossary</a></li>
+
+                  <li><a href="trading-hours.html">Trading Hours</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <h2>Partners</h2>
+                <ul>
+                  <li>
+                    <a href="partners.html">Become a Partner</a>
+                  </li>
+                  <li>
+                    <a href="ib.html">IB</a>
+                  </li>
+
+                  <li>
+                    <a href="affiliate.html">Affiliate</a>
+                  </li>
+                  <li class="promoblock"><h2>Promo</h2></li>
+                  <li><a href="FirstDeposit.html">Welcome Bonus</a></li>
+                  <li><a href="VIPClub.html">Loyal Bonus</a></li>
+                  <li>Referral Bonus</li>
+                  <li><a href="WelcomeBonus.html">Trading Bonus</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <h2>About</h2>
+                <ul>
+                  <li>
+                    <a href="why-us.html">Why 24Markets.com</a>
+                  </li>
+
+                  <li>
+                    <a href="about-us.html">About Us</a>
+                  </li>
+
+                  <!-- <li>
+                    <a href="./careers.html">Careers</a>
+                  </li> -->
+
+                  <li>
+                    <a href="faqs.html">FAQs</a>
+                  </li>
+
+                  <li><a href="contact.html">Contact Support</a></li>
+                  <li><a href="contact.html">Help Centre</a></li>
+                  <li>
+                    <a href="regulation.html">Regulation Center</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="paymentshare">
+          <div class="row">
+            <div class="col-md-3">
+              <p class="share">
+                Follow us on:
+                <a href="https://www.facebook.com/24markets"
+                  ><img src="assets/img/soc_1.svg" /></a
+                ><a href="https://www.instagram.com/24markets"
+                  ><img src="assets/img/soc_2.svg" /></a
+                ><a href="https://twitter.com/24Markets"
+                  ><img src="assets/img/soc_3.svg" /></a
+                ><a href="https://za.linkedin.com/company/24marketscom"
+                  ><img src="assets/img/soc_4.svg"
+                /></a>
+              </p>
+            </div>
+            <div class="col-md-9">
+              <p class="payments">
+                <span>Payment <br />Methods </span
+                ><img src="assets/img/paymentsall.webp" />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <ul class="usefulelinks">
+          <li><a href="regulation.html"> Legal Pack</a></li>
+          <li><a href="cookie-disclosure.html"> Cookie Disclosure</a></li>
+          <li><a href="privacypolicy.html">Privacy Policy</a></li>
+        </ul>
+
+        <div class="disclaimer">
+          <p>
+            24markets (24markets.com) stands as the distinguished brand of DEDA
+            Capital Markets (Pty) Ltd, a meticulously regulated investment firm
+            holding the FSCA license number 50640 (South African Financial
+            Sector Conduct Authority - FSCA No.50640). We take pride in adhering
+            to the highest standards of financial conduct, ensuring that our
+            clients benefit from a secure and compliant trading environment.
+          </p>
+
+          <p>
+            HIGH RISK INVESTMENT WARNING: We emphasize the critical nature of
+            informed decision-making in the world of financial trading. Engaging
+            in leveraged trading involving foreign currency contracts, contracts
+            for difference, or other off-exchange products carries a heightened
+            level of risk, and it may not be suitable for everyone. Prior to
+            embarking on any trading activities, we strongly advise all
+            potential traders to diligently read and comprehend the relevant
+            risk disclosures and warnings available on our platform. It is
+            paramount to acknowledge the substantial risk that one may lose
+            their entire initial investment. Considering the diverse and dynamic
+            nature of financial markets, we recommend that individuals carefully
+            assess whether trading leveraged products aligns with their unique
+            personal circumstances. Seeking independent financial advice is
+            highly encouraged to gain a nuanced understanding of all associated
+            risks before entering the world of financial trading. Moreover, the
+            inherent risks of trading through an online platform are explicitly
+            addressed, and users are urged to refer to our dedicated Regulation
+            section for additional insights.
+          </p>
+
+          <p>
+            The provision of services on 24markets is facilitated by DEDA
+            CAPITAL MARKETS (PTY) LTD, an esteemed entity authorized and
+            regulated by the South African Financial Sector Conduct Authority
+            (FSCA). The company is duly incorporated in South Africa with
+            registration number 2017/531362/07 and maintains its registered
+            office at 9TH FLOOR, ATRIUM ON 5TH STREET, SANDTON GAUTENG, 2196.
+          </p>
+          <p>
+            In alignment with regulatory standards and legal compliance, it is
+            important to note that we do not establish accounts for residents of
+            specific jurisdictions, such as the United States or any location
+            where such distribution or use would contravene local law or
+            regulation. For a detailed understanding of our policies, kindly
+            refer to our comprehensive Terms & Conditions.
+          </p>
+
+          <p>
+            As we navigate the complexities of the financial landscape,
+            24markets remains committed to providing a transparent, educational,
+            and secure platform. Our dedication to guiding users through the
+            intricacies of financial trading underscores our commitment to
+            empowering individuals with the knowledge and tools necessary for a
+            successful trading journey.
+          </p>
+          <p>
+            © Copyright 2024 - 24markets.com Trading on financial markets
+            carries risks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EU Modal -->
+    <div
+      class="modal fade"
+      id="EU-Residents-Notice"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="EU-Residents-NoticeLabel"
+      aria-hidden="true"
+      data-bs-backdrop="static"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="assets/img/Logo.svg" alt="" />
+            <h2>Important Notice for EU Residents</h2>
+            <p>
+              The website you are trying to reach is operated by
+              <span>DEDA Capital Markets (Pty) Ltd,</span> a regulated
+              investment firm by the FSCA licence number 50640.
+            </p>
+
+            <p>
+              The Investment services provided by this website are not directed
+              at EU residents, fall outside the European regulatory framework
+              and are not in scope of (among others) the Market Financial
+              Instruments Directive (MiFID) II.
+            </p>
+
+            <p>
+              Please click below if wish to continue anyway at your own
+              exclusive initiative.
+            </p>
+
+            <button data-bs-dismiss="modal" id="importantNotice">
+              Continue
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="bundle.js"></script>
+
+    <script>
+      const currentPageUrl = window.location.href;
+      const currentPageName = currentPageUrl.split("/").pop();
+
+      document.querySelectorAll(".lang-options > div").forEach((lang) => {
+        if (lang.matches(":nth-child(1)")) {
+          lang.addEventListener("click", () => {
+            window.location.href = `./${currentPageName}`;
+          });
+        } else if (lang.matches(":nth-child(2)")) {
+          lang.addEventListener("click", () => {
+            window.location.href = `./es/${currentPageName}`;
+          });
+        }
+      });
+    </script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+    <script type="text/javascript">
+      new WOW().init();
+
+      let questions = document.querySelectorAll(".question");
+
+      questions.forEach((f) => {
+        f.addEventListener("click", () => {
+          document
+            .querySelector(".show-answer")
+            .classList.replace("show-answer", "hide-answer");
+          document.querySelector(".rotate").classList.remove("rotate");
+          f.children[1].classList.replace("hide-answer", "show-answer");
+          f.children[0].classList.add("rotate");
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#menubutton").click(function () {
+          $(".mainmenu").toggle(function () {});
+          $("#menubutton").toggleClass("close");
+          $(".toplinks").toggleClass("open");
+        });
+
+        $("body").hide().fadeIn(800);
+
+        var previousActiveTabIndex = 0;
+
+        $(".wrapperfavorite .tab-switcher").on(
+          "click keypress",
+          function (event) {
+            // event.which === 13 means the "Enter" key is pressed
+
+            if (
+              (event.type === "keypress" && event.which === 13) ||
+              event.type === "click"
+            ) {
+              var tabClicked = $(this).data("tab-index");
+
+              if (tabClicked != previousActiveTabIndex) {
+                $("#allTabsContainer .tab-container").each(function () {
+                  if ($(this).data("tab-index") == tabClicked) {
+                    $(".tab-container").hide();
+                    $(this).fadeIn();
+                    previousActiveTabIndex = $(this).data("tab-index");
+                    return;
+                  }
+                });
+              }
+            }
+          }
+        );
+
+        $(".wrapperfavorite .toplinks li").click(function () {
+          var tabid = $(this).attr("rel");
+          $(this).parents(".toplinks").find(".active").removeClass("active");
+          $(this).addClass("active");
+          return false;
+        });
+
+        // Show the first tab and hide the rest
+        $("#tradesmart li:first-child").addClass("active");
+        $(".tab-content").hide();
+        $(".tab-content:first").show();
+
+        // Click function
+        $("#tradesmart li").click(function () {
+          $("#tradesmart li").removeClass("active");
+          $(this).addClass("active");
+          $(".tab-content").hide();
+
+          var activeTab = $(this).find("a").attr("href");
+          $(activeTab).fadeIn();
+          return false;
+        });
+      });
+
+      jQuery(document).ready(function ($) {
+        var submitButton = $("#submit-button");
+
+        $("#telephone").intlTelInput({
+          allowDropdown: true,
+          autoPlaceholder: "polite",
+          formatOnDisplay: true,
+          separateDialCode: true,
+          showFlags: true,
+        });
+
+        var instance = $("#telephone");
+        instance.intlTelInput();
+
+        var telephoneNr;
+        var dialCodeNr;
+
+        $("#telephone").on("blur", function () {
+          telephoneNr = $(this).val();
+          dialCodeNr = instance.intlTelInput("getSelectedCountryData").dialCode;
+        });
+
+        $.ajax({
+          url: "https://24markets.com/api/geo-location",
+          success: function (response) {
+            if (response.country !== undefined) {
+              instance.intlTelInput(
+                "setCountry",
+                response.country.toLowerCase()
+              );
+            }
+          },
+        });
+
+        let selectedDialCountry;
+
+        $("#telephone").on("countrychange", () => {
+          selectedDialCountry = instance.intlTelInput(
+            "getSelectedCountryData"
+          ).name;
+          const cleanedDialCountry = selectedDialCountry
+            .replace(/\(.*?\)/, "")
+            .trim();
+          const options = $("#country option");
+          const selectedOption = Array.from(options).find((option) =>
+            option.textContent.includes(cleanedDialCountry)
+          );
+          if (selectedOption) {
+            $(selectedOption).prop("selected", true);
+          }
+        });
+
+        $(".form").validate({
+          rules: {
+            firstname: {
+              required: true,
+              noSpecialCharsNumbers: true,
+            },
+            lastname: {
+              required: true,
+              noSpecialCharsNumbers: true,
+            },
+            password: {
+              required: true,
+              minlength: 8,
+              maxlength: 15,
+              passwordCriteria: true,
+            },
+            confirmPass: {
+              required: true,
+              equalTo: "#password",
+            },
+            email: {
+              required: true,
+              email: true,
+            },
+            telephone: {
+              required: true,
+              phoneValidation: true,
+            },
+            acceptConditions: {
+              required: true,
+            },
+          },
+          messages: {
+            firstname: {
+              required: "First name is required to register",
+              noSpecialCharsNumbers:
+                "Cannot contain special characters and numbers",
+            },
+            lastname: {
+              required: "Last name is required to register",
+              noSpecialCharsNumbers:
+                "Cannot contain special characters and numbers",
+            },
+            password: {
+              required: "Password is required to register",
+              minlength: "Password must be at least 8 characters long",
+              maxlength: "Password must not exceed 15 characters",
+              passwordCriteria:
+                "Password must contain at least 1 number, 1 letter, and one capital letter. White spaces or special characters are not allowed except the following characters: ! @ $ % _ # ( )",
+            },
+            confirmPass: {
+              required: "Please confirm your password",
+              equalTo: "Password must match",
+            },
+            email: {
+              required: "Please enter a valid email address",
+              email: "Please enter a valid email address",
+            },
+            telephone: {
+              required: "Please enter a valid phone number",
+              phoneValidation: "Please enter a valid phone number",
+            },
+            acceptConditions: {
+              required: "Please accept our Terms & Conditions",
+            },
+          },
+          errorPlacement: function (error, element) {
+            error.addClass("validation");
+            if (element.attr("name") === "acceptConditions") {
+              error.insertAfter(element.closest(".confirmAges")); // Insert after the mt-[30px] div element
+            } else {
+              error.insertAfter(element);
+            }
+          },
+          submitHandler: function (form, event) {
+            event.preventDefault();
+            submitButton.prop("disabled", true);
+            submitButton.addClass("disabled");
+            // Retrieve form values
+            const values = $(form)
+              .serializeArray()
+              .reduce(function (obj, item) {
+                obj[item.name] = item.value;
+                return obj;
+              }, {});
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+
+            const introducer = urlParams.get("introducer");
+            const utm_source = urlParams.get("utm_source");
+            const utm_medium = urlParams.get("utm_medium");
+            const utm_campaign = urlParams.get("utm_campaign");
+            const utm_term = urlParams.get("utm_term");
+            const utm_content = urlParams.get("utm_content");
+            const utm_device = urlParams.get("utm_device");
+            const utm_creative = urlParams.get("utm_creative");
+            const utm_network = urlParams.get("utm_network");
+            const sidi = urlParams.get("sidi");
+            const sidc = urlParams.get("sidc");
+            const campaign_id = urlParams.get("campaign_id");
+            const click_id = urlParams.get("click_id");
+
+            const requestBody = {
+              fname: values.firstname,
+              lname: values.lastname,
+              password: values.password,
+              email: values.email,
+              tel_country_code: dialCodeNr,
+              tel_number: telephoneNr,
+              country_id: values.country,
+              currency: values.currency,
+              extended_fields: window.btoa(
+                JSON.stringify({ promo_code: values.promoCode })
+              ),
+              language: "en",
+              introducer: introducer || undefined,
+              utm_source: utm_source || undefined,
+              utm_medium: utm_medium || undefined,
+              utm_campaign: utm_campaign || undefined,
+              utm_term: utm_term || undefined,
+              utm_content: utm_content || undefined,
+              utm_device: utm_device || undefined,
+              utm_creative: utm_creative || undefined,
+              utm_network: utm_network || undefined,
+              sidi: sidi || undefined,
+              sidc: sidc || undefined,
+              campaign_id: campaign_id || undefined,
+              click_id: click_id || undefined,
+            };
+            loginRequestBody = {
+              service_id: 1,
+              password: values.password,
+              email: values.email,
+            };
+            $.ajax({
+              url: "https://24markets.com/workers/api/middleware-crm/syntellicore/register",
+              type: "POST",
+              contentType: "application/json",
+              data: JSON.stringify(requestBody),
+              success: function (response) {
+                if (response.success) {
+                  $.ajax({
+                    url: "https://24markets.com/workers/api/middleware-crm/syntellicore/login",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify(loginRequestBody),
+                    success: function (response) {
+                      if (response.success) {
+                        window.location.href = response.data[0].url;
+                      }
+                    },
+                    error: function (error) {
+                      submitButton.prop("disabled", false);
+                      submitButton.removeClass("disabled");
+                      document.getElementById("error-message").style.display =
+                        "block";
+                    },
+                  });
+                }
+              },
+              error: function (error) {
+                if (error.responseJSON.info.message === "email exists") {
+                  submitButton.prop("disabled", false);
+                  submitButton.removeClass("disabled");
+                  document.getElementById("error-message-email").style.display =
+                    "block";
+                } else {
+                  submitButton.prop("disabled", false);
+                  submitButton.removeClass("disabled");
+                  document.getElementById("error-message").style.display =
+                    "block";
+                }
+              },
+            });
+          },
+        });
+        // Custom validation methods
+        $.validator.addMethod(
+          "noSpecialCharsNumbers",
+          function (value, element) {
+            return /^[a-zA-Z\s]*$/.test(value);
+          },
+          "Cannot contain special characters and numbers"
+        );
+
+        $.validator.addMethod(
+          "passwordCriteria",
+          function (value, element) {
+            return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@$%_#()])[a-zA-Z0-9!@$%_#()]{8,15}$/.test(
+              value
+            );
+          },
+          "Password must be between 8 and 15 characters long, contain at least 1 number, 1 letter, and one capital letter. White spaces or special characters are not allowed except the following characters: ! @ $ % _ # ( )"
+        );
+
+        $.validator.addMethod(
+          "phoneValidation",
+          function (value, element) {
+            return /^\+?\d{1,3}?[-.\s]?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$/.test(
+              value
+            );
+          },
+          "Please enter a valid phone number"
+        );
+      });
+
+      document.querySelectorAll(".btn-redirect-register").forEach((f) => {
+        f.addEventListener("click", () => {
+          window.open("./register.html", "_blank");
+        });
+      });
+
+      document.querySelector(".tcs").addEventListener("click", () => {
+        window.open(
+          "https://cdn.24markets.com/docs/en/VIPClub_TermsPolicy.pdf",
+          "_blank"
+        );
+      });
+    </script>
+  </body>
+</html>

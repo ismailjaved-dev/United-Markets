@@ -1,0 +1,2206 @@
+@media all and (max-width: 768px) {
+  #blocks {
+    margin-bottom: 50px;
+  }
+
+  #blocks > div:nth-child(1) > div:nth-child(1) > .col-md-3 {
+    width: 100%;
+  }
+  #blocks > div:nth-child(1) > div:nth-child(1) > .col-md-3:nth-child(3),
+  #blocks > div:nth-child(1) > div:nth-child(1) > .col-md-3:nth-child(4) {
+    margin-top: 25px;
+  }
+
+  #whyus .modileft {
+    left: 0;
+  }
+
+  .col-md-6 {
+    width: 100% !important;
+  }
+
+  .glasswhy > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1) {
+    text-align: center;
+  }
+
+  .glasswhy > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) {
+    text-align: center !important;
+  }
+
+  #whyus .glasswhy h1 {
+    margin-top: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .glasswhy > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1) {
+    text-align: center !important;
+  }
+
+  div.tab-container:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div {
+    /* CHECK- SLIDER ADDED, IT WAS 50% */
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #favoritemarkets .toplinks li {
+    width: fit-content;
+
+    padding: 5px 20px;
+  }
+
+  div.container:nth-child(3)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(1),
+  div.container:nth-child(3)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(3) {
+    width: 100%;
+  }
+
+  div.container:nth-child(3)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div {
+    padding-bottom: 35px !important;
+  }
+
+  div.container:nth-child(3)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > div {
+    padding-bottom: 35px !important;
+  }
+
+  #vippromo .bonuspack {
+    position: absolute;
+    right: -80px;
+    top: 142px;
+    height: 320px;
+  }
+
+  div.carousel-item > div:nth-child(1) > div:nth-child(2) > img {
+    margin-top: 0;
+  }
+
+  .index-container > .row > .col-md-3 {
+    width: 48%;
+  }
+
+  .index-wrapperfavorite > .toplinks > li {
+    width: 100% !important;
+  }
+
+  .index-stocks > .col-md-3 {
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+
+  .index-vippromo {
+    margin-bottom: 30px;
+  }
+
+  .discoverstock div.col-md-3 {
+    width: 100%;
+  }
+
+  .web-trader-header-img {
+    max-width: 100% !important;
+    display: block;
+    margin: 0 auto;
+    margin-left: -35px !important;
+  }
+
+  .web-trader-elevateimg {
+    max-width: 85% !important;
+    display: block;
+    margin: 0 auto;
+    margin-right: 10%;
+  }
+
+  .web-trader-blockglasser {
+    padding: 50px 30px !important;
+  }
+
+  .app-blockglasser {
+    padding: 50px 30px !important;
+  }
+
+  .downloadblc ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+    text-align: center;
+  }
+
+  .downloadblc ul > li:nth-child(1) {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
+  .downloadblc ul > li:nth-child(2) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+  .downloadblc ul > li:nth-child(3) {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+  .downloadblc ul > li:nth-child(4) {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+  .downloadblc ul > li:nth-child(5) {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+
+  .downloadblc ul li a {
+    width: 100%;
+  }
+
+  .downloadblc ul li:last-child a {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .downloadblc ul > li:nth-child(4),
+  .downloadblc ul > li:nth-child(5) {
+    margin-left: 10px;
+  }
+
+  .copy-trading-four-steps {
+    width: 70%;
+    margin-left: 15% !important;
+  }
+
+  .cfd-trading-optionswhy > .row {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cfdtrading .sectioncfd .optionswhy .glassglow {
+    margin-bottom: 20px;
+    padding: 14px;
+  }
+
+  .firstblc img {
+    max-width: 100% !important;
+  }
+  .seccondblc img {
+    max-width: 100% !important;
+  }
+  .thirdblc img {
+    max-width: 100% !important;
+  }
+
+  .partners-container > .row > .col-md-5 > img {
+    max-width: 70% !important;
+    margin-top: 120px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .partners-modibox > .col-md-3 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .partners-modibox > .col-md-3:first-child {
+    width: 100%;
+    margin-bottom: -15px;
+  }
+
+  .ib-modified .listingblock > .col-md-6 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+  }
+
+  .ib-modified .listingblock > .col-md-6 > h3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .ib-modified .listingblock > .col-md-6:nth-child(1) > strong:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: left;
+  }
+
+  .ib-tradesmart .wrappertrade {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .ib-tradesmart .wrappertrade h2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .ib-tradesmart .blureffect {
+    z-index: -1;
+  }
+
+  .ib-modified .listingblock > .col-md-6 > h3 {
+    text-align: left;
+  }
+
+  .ib-modified .row {
+    padding-bottom: 22px;
+  }
+
+  #tradesmart .wrappertrade ul {
+    padding-right: 0;
+    margin-left: 75px !important;
+  }
+
+  .affiliate-modified > .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .affiliate-modified > .row > .col-md-5 {
+    width: 100%;
+    grid-column-start: 1;
+  }
+
+  .affiliate-modifiedcommitment > .row:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-us-modibox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .offerus .fourblocks {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .faqs-tabsnav > ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .faqs-tabsnav > ul > li {
+    margin-top: 10px !important;
+  }
+
+  .careerblocksthree {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .careerblocksthree > .titleblock {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .faqs-wrapper > .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-blockscontact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-downloads {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 50%;
+    column-gap: 2px;
+    row-gap: 1px;
+  }
+  .footer-downloads img {
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  .calltoblock
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > img:nth-child(1) {
+    width: 17% !important;
+  }
+  #callto .glassblock .stepico {
+    width: 20%;
+  }
+
+  .calltoblock > div:nth-child(2) > div:nth-child(3) {
+    margin-bottom: 15px;
+  }
+
+  .index-promoblock {
+    display: grid;
+    padding: 20px !important;
+    row-gap: 20px;
+  }
+
+  #vippromo .promoblock h1 {
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+
+  #vippromo .promoblock div {
+    display: grid;
+    grid-template-columns: 6% 94%;
+    margin-bottom: 50px;
+  }
+
+  #vippromo .promoblock .buttons {
+    width: fit-content;
+  }
+
+  #vippromo .bonuspack {
+    max-width: 60%;
+    height: auto;
+    left: 42%;
+  }
+
+  #primepromo .glassblocksmall .stepico {
+    margin-bottom: 15px;
+    max-width: 12%;
+  }
+
+  #primepromo .glassblocksmall h3 {
+    margin-top: 8px;
+  }
+
+  #primepromo .glassblocksmall {
+    padding-bottom: 25px !important;
+  }
+
+  div.container:nth-child(3)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > div:nth-child(1) {
+    margin-top: 50px !important;
+  }
+
+  div.container:nth-child(3)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > h1:nth-child(1) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .index-bigplayer {
+    padding-bottom: 44px !important;
+  }
+
+  #bigplayer
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > h1:nth-child(1) {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px !important;
+  }
+
+  .index-favoritemarkets {
+    padding: 5px !important;
+  }
+
+  #favoritemarkets .glassblock a {
+    float: right;
+  }
+
+  #favoritemarkets .glassblock .gainlose {
+    margin-right: 5px;
+  }
+
+  #favoritemarkets .glassblock img {
+    margin-left: 5px;
+  }
+
+  #favoritemarkets .glassblock .price {
+    margin-left: 5px;
+  }
+
+  .index-wrappertrade {
+    height: 560px;
+    overflow: hidden;
+  }
+
+  .glasswhy > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1) {
+    line-height: 24.1px !important;
+  }
+
+  .index-blocks {
+    margin-bottom: -4px !important;
+  }
+
+  #whyus .candle {
+    top: -44px;
+  }
+
+  .index-row {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #blocks .glassblock {
+    padding: 15px 20px;
+  }
+
+  #blocks > div:nth-child(1) > div:nth-child(1) > .col-md-3:nth-child(3),
+  #blocks > div:nth-child(1) > div:nth-child(1) > .col-md-3:nth-child(4) {
+    margin-top: 3.44px;
+  }
+
+  .forex-mobile-carousel {
+    display: block;
+  }
+  /* 
+  .forex-mobile-carousel
+    .carousel-inner
+    > .carousel-item
+    > .col-md-3
+    > .glassblock {
+    width: 426px;
+    height: 246px;
+  } */
+
+  .forex-md3-tohide {
+    display: none;
+  }
+
+  .discoverstock svg {
+    color: gray;
+  }
+
+  .carousel-inner {
+    margin-top: 15px;
+  }
+
+  .index-stocks {
+    display: none !important;
+  }
+
+  #index-carousel {
+    display: block !important;
+    margin-top: -50px;
+  }
+
+  .seenin {
+    display: none !important;
+  }
+
+  #carousel-seenin {
+    display: block !important;
+  }
+
+  #carousel-seenin p {
+    width: fit-content;
+    display: block !important;
+    margin: 0 auto !important;
+    margin-bottom: -20px !important;
+    margin-top: 50px !important;
+    font-size: 16px !important;
+  }
+
+  #carousel-seenin .carousel-item > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 100px;
+  }
+  #carousel-seenin .carousel-item > div > img {
+    margin: 0 auto;
+  }
+
+  #bigplayer
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > h1:nth-child(1) {
+    line-height: 25px !important;
+  }
+
+  #callto
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > h1:nth-child(1) {
+    line-height: 25px !important;
+  }
+
+  .cardspayment {
+    display: none !important;
+  }
+
+  #index-carousel-payment-methods {
+    display: block !important;
+  }
+  #index-carousel-payment-methods .carousel-item > div {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+  #index-carousel-payment-methods .carousel-item > div > img {
+    width: 75%;
+    object-fit: contain;
+  }
+
+  div.row:nth-child(7) > div {
+    width: 75%;
+    margin: 0 auto;
+  }
+  div.row:nth-child(8) > div {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  #maincontentblock img.stockimgs {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #maincontentblock.accounttypes h2.title {
+    line-height: 30px !important;
+  }
+
+  #maincontentblock.accounttypes h2.title {
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-top: 0px;
+  }
+
+  #maincontentblock .titledesci {
+    text-align: center !important;
+  }
+
+  #innerv2-zero > h2:nth-child(1) {
+    padding: 5px 5px 0 5px !important;
+    margin-bottom: 15px;
+  }
+
+  #innerv2-zero > ul:nth-child(2) {
+    padding-bottom: 5px !important;
+  }
+  #innerv2-one > h2:nth-child(1) {
+    padding: 5px 5px 0 5px !important;
+    margin-bottom: 15px;
+  }
+
+  #innerv2-one > ol:nth-child(2) {
+    padding-bottom: 5px !important;
+  }
+
+  #maincontentblock .buttons {
+    font-size: 16px !important;
+  }
+
+  .page-hdr-buttons {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  .page-hdr-buttons > .buttons {
+    margin: 0 !important;
+  }
+
+  div.col-md-5:nth-child(1) > div:nth-child(3) > a:nth-child(2) {
+    font-weight: 700 !important;
+  }
+
+  #maincontentblock h2.title {
+    text-align: center !important;
+    font-size: 2.2em !important;
+  }
+
+  .affiliate-withbanner .titledesci {
+    width: 50%;
+  }
+
+  .affiliate-withbanner .title {
+    width: 66%;
+  }
+
+  .webtraderblockimg {
+    margin-left: -9%;
+  }
+
+  .candle {
+    width: 66px !important;
+    height: 100px !important;
+  }
+
+  .web-trader-candle {
+    margin-top: 13px;
+  }
+
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(1) {
+    margin-left: 8%;
+  }
+
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(2) {
+    margin-left: 5%;
+  }
+
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(3) {
+    margin-left: 5%;
+  }
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(4) {
+    margin-left: 5%;
+  }
+
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(1) {
+    margin-left: 8%;
+  }
+
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(2) {
+    margin-left: 5%;
+  }
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(3) {
+    margin-left: 5%;
+  }
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(4) {
+    margin-left: 5%;
+  }
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(5) {
+    margin-left: 5%;
+  }
+
+  li.menu-item-has-children:nth-child(5)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(1) {
+    margin-top: 10px;
+  }
+
+  .showblocks .colblock:nth-child(1) {
+    background-image: url(assets/img/logo24.svg) !important;
+    background-size: 26px;
+    background-position-x: 9px !important;
+    background-position-y: 1px !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .showblocks .colblock:nth-child(2) {
+    background-image: url(assets/img/affilicon_3.png) !important;
+    background-size: 30px;
+    background-position-x: 7px !important;
+    background-position-y: 1px !important;
+    background-repeat: no-repeat !important;
+  }
+  .showblocks .colblock:nth-child(3) {
+    background-image: url(assets/img/affilicon_1.png) !important;
+    background-size: 30px;
+    background-position-x: 7px !important;
+    background-position-y: 1px !important;
+    background-repeat: no-repeat !important;
+  }
+
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(1),
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(1) {
+    margin-left: 8%;
+  }
+
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(2),
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(3),
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(4) {
+    margin-left: 5%;
+  }
+
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(2),
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(3),
+  li.menu-item-has-children:nth-child(2)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(4) {
+    margin-left: 5%;
+  }
+
+  div.colblock:nth-child(3) > li:nth-child(1) {
+    margin-left: 8%;
+    margin-top: 2px;
+  }
+
+  div.colblock:nth-child(3) > li:nth-child(2),
+  div.colblock:nth-child(3) > li:nth-child(3),
+  div.colblock:nth-child(3) > li:nth-child(4) {
+    margin-left: 5%;
+  }
+
+  .about-us-title-motha {
+    line-height: 32px !important;
+  }
+
+  #header {
+    padding-bottom: 0;
+  }
+
+  #header .mainmenu {
+    padding-top: 0;
+  }
+
+  .mainmenu {
+    display: block;
+    margin-left: 0 !important;
+  }
+  .mainmenu > li {
+    border-bottom: none;
+  }
+
+  .only-tablet {
+    display: none;
+  }
+
+  #header .toplinks.open {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .toplinks > a:nth-child(2) {
+    margin-right: 0 !important;
+  }
+
+  li.menu-item-has-children:nth-child(3)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(1),
+  li.menu-item-has-children:nth-child(3)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(1),
+  div.colblock:nth-child(3) > li:nth-child(1),
+  li.menu-item-has-children:nth-child(6)
+    > ul:nth-child(2)
+    > div:nth-child(1)
+    > li:nth-child(1),
+  li.menu-item-has-children:nth-child(6)
+    > ul:nth-child(2)
+    > div:nth-child(2)
+    > li:nth-child(1) {
+    margin-left: 41px;
+  }
+
+  a.custom-carousel-control:nth-child(1) {
+    text-decoration: none;
+  }
+
+  .index-wrappertrade {
+    height: fit-content;
+  }
+
+  .index-mbltrd-one {
+    max-width: 50%;
+    height: auto !important;
+    right: -21px !important;
+    bottom: 0 !important;
+  }
+
+  .index-mbltrd-three {
+    max-width: 60%;
+    height: auto !important;
+    right: -20px !important;
+  }
+
+  .index-mbltrd-two {
+    max-width: 20%;
+    height: auto !important;
+    right: 30px !important;
+    bottom: 0 !important;
+  }
+
+  #tradesmart .mobiletrade {
+    position: absolute !important;
+  }
+
+  #tradesmart .wrappertrade {
+    height: fit-content !important;
+  }
+
+  .carousel-inner-payment-methods {
+    height: 100px !important;
+  }
+
+  .h2-why-us {
+    margin-top: 30px;
+  }
+
+  #tradesmart #tabs-content {
+    padding-bottom: 60px;
+    height: 350px;
+  }
+
+  .tab-content h2 {
+    font-size: 1.2em !important;
+  }
+
+  .index-three-steps > .col-md-4 > div {
+    margin-left: 0 !important;
+    padding: 20px 20px !important;
+    text-align: center !important;
+  }
+
+  .index-bigplayer .col-md-4 {
+    margin-bottom: 70px;
+  }
+
+  .index-bigplayer .glassblock {
+    height: 130px !important;
+  }
+  .index-bigplayer .glassblock::after {
+    position: relative !important;
+    top: 45px !important;
+  }
+
+  .index-bigplayer .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+
+  #callto > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .index-desci-p {
+    top: 28px !important;
+  }
+
+  .index-first-carousel {
+    margin-top: 0;
+  }
+
+  #callto .glassblock .desci {
+    top: 29px;
+    font-size: 16px !important;
+    font-weight: 500;
+  }
+
+  #innerv2-zero > h2:nth-child(1) {
+    font-size: 1.5rem !important;
+  }
+  #innerv2-one > h2:nth-child(1) {
+    font-size: 1.5rem !important;
+  }
+
+  #maincontentblock .wrapperblock.inner ul,
+  #maincontentblock .wrapperblock.inner ol {
+    margin-left: 10px;
+  }
+
+  #footer .downloads img {
+    height: auto;
+    max-width: 15%;
+  }
+
+  .index-main-slider-buttonz {
+    margin: 0 auto !important;
+    max-width: fit-content;
+  }
+
+  #footer .downloads {
+    width: 100%;
+  }
+
+  #footer .downloads img {
+    height: auto;
+    max-width: 95%;
+  }
+
+  .contactin > h2:nth-child(1) {
+    width: 15%;
+  }
+
+  #primepromo .trustpilot {
+    text-align: center;
+  }
+
+  .reviewall > h1:nth-child(1) {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .nomargin > div:nth-child(2) {
+    margin-top: 2px;
+  }
+
+  .index-first-carousel
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1) {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+  .index-first-carousel
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1) {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+  .index-first-carousel
+    > div:nth-child(3)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1) {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+  .index-first-carousel
+    > div:nth-child(4)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1) {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+
+  .index-motha-slider {
+    height: 700px;
+  }
+
+  #slider #mainslider {
+    max-width: 90%;
+  }
+
+  #slider #mainslider .elicon span img {
+    margin-right: 1px;
+  }
+
+  #slider #mainslider .elicon span:nth-child(3) img {
+    margin-right: -1px;
+  }
+
+  .index-first-carousel > div > div:nth-child(1) > div:nth-child(2) {
+    margin-left: 25px;
+  }
+
+  #slider #mainslider {
+    max-width: 100%;
+  }
+
+  #slider #mainslider .buttons.inline {
+    margin-left: 0;
+  }
+
+  .index-first-carousel
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .index-footer {
+    margin-top: -72px;
+  }
+
+  #maincontentblock .tradecfds.modififi .candle {
+    background-size: 48% !important;
+  }
+
+  #maincontentblock .tradecfds.modififi .candle {
+    top: -54px;
+  }
+
+  #maincontentblock .wrapperblock {
+    margin-top: 50px;
+  }
+
+  #header .lang {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  .trading-basics-withbanner h2 {
+    margin-top: 80px !important;
+    line-height: 34px !important;
+  }
+
+  .trading-basics-withbanner > .container > .row {
+    margin-top: 200px;
+  }
+
+  .ib-withbanner h2 {
+    margin-top: 180px !important;
+    line-height: 34px !important;
+  }
+
+  #maincontentblock.careersblock .withbanner {
+    padding-top: 0 !important;
+    padding-bottom: 55px !important;
+  }
+
+  .careers-withbanner h2 {
+    margin-top: 60px !important;
+    line-height: 34px !important;
+  }
+
+  #maincontentblock.careersblock .withbanner {
+    background: url(assets/img/CareersMobile.webp) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: fit-content !important;
+    padding-top: 150px !important;
+    background-repeat: no-repeat !important;
+    margin-top: 120px;
+    height: 500px !important;
+  }
+  #maincontentblock.careersblock .withbanner .title {
+    margin-top: -200px !important;
+  }
+  #maincontentblock.careersblock .withbanner .container {
+    padding-bottom: 40px !important;
+  }
+  #maincontentblock.careersblock .withbanner .titledesci {
+    margin-top: 212px !important;
+  }
+
+  .blockcreers {
+    padding-top: 20px !important;
+  }
+
+  .platformblock > .affiliate-withbanner {
+    background-size: cover !important;
+
+    height: 100% !important;
+    padding-bottom: 200px !important;
+  }
+
+  .careers-withbanner > .container {
+    padding-top: 102px !important;
+  }
+
+  .affiliate-withbanner h2 {
+    margin-top: 222px !important;
+    line-height: 34px !important;
+    width: 80%;
+  }
+
+  #maincontentblock.copytrading .withbanner {
+    background-size: contain !important;
+    height: max-content !important;
+    padding-bottom: 89% !important;
+    padding-top: 30% !important;
+    background-color: black !important;
+    background-position-y: 200px !important;
+    padding-bottom: 900px;
+  }
+
+  .copy-trading-withbanner h2 {
+    margin-top: 160px !important;
+    line-height: 34px !important;
+  }
+
+  .why-us-blocksfour img {
+    width: 40% !important;
+  }
+  .why-us-buttonz > .outlinebtn {
+    height: fit-content !important;
+    font-size: 16px;
+  }
+
+  .why-us-heroblock {
+    padding-top: 25px !important;
+    margin-bottom: 20px;
+  }
+
+  .index-container .glassblock p {
+    height: 50px;
+  }
+  .index-container .glassblock h2 {
+    height: 30px;
+  }
+
+  .partners-container .title {
+    line-height: 32px !important;
+  }
+
+  #maincontentblock .ourcommitment .boxedcover {
+    padding-bottom: 30px;
+    padding-top: 25px;
+  }
+
+  .ourcommitment .boxedcover .minico {
+    position: absolute;
+    right: 28px;
+  }
+
+  #maincontentblock .ourcommitment .boxedcover h2 {
+    font-size: 1.1em !important;
+    margin-top: 8px;
+  }
+  #maincontentblock .ourcommitment .boxedcover p {
+    height: 120px;
+    margin-top: 0;
+    width: 70%;
+    margin-bottom: 0;
+  }
+
+  #maincontentblock .ourcommitment .boxedcover p {
+    height: 120px;
+  }
+
+  .ib-boxedcover p {
+    margin-bottom: 40px !important;
+  }
+
+  .trading-tools-title-zero {
+    line-height: 32px !important;
+  }
+
+  .crypto-whytochoose > .col-md-4 > div {
+    height: auto !important;
+  }
+
+  .webtraderblockimg {
+    margin: 0 auto;
+  }
+
+  .app-headingblock {
+    text-align: left !important;
+  }
+
+  #maincontentblock .elevateblock .headingblock h2 {
+    margin: 0;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .mt5-elevateblock .blureffect {
+    z-index: -1;
+  }
+
+  .mt5-elevateblock h2 {
+    width: 400px;
+  }
+
+  #maincontentblock .elevateblock .headingblock {
+    text-align: left;
+  }
+
+  .trading-tools-glassglow .col-md-6 {
+    max-width: 100%;
+  }
+
+  .trading-tools-glassglow img {
+    margin-left: 0;
+  }
+
+  .trading-tools-green {
+    z-index: -1 !important;
+    top: 460px !important;
+    left: 170px;
+    opacity: 25% !important;
+  }
+
+  .trading-tools-red {
+    z-index: -1 !important;
+    top: 900px !important;
+    left: 170px !important;
+    opacity: 30% !important;
+  }
+
+  .trading-tools-blue {
+    z-index: -1 !important;
+    top: 460px !important;
+    display: none;
+  }
+
+  .typesAcc > .glassessglow {
+    width: 100%;
+  }
+
+  .AccCards li {
+    font-size: 16px;
+  }
+
+  .faqspage .candle {
+    background-size: 45% !important;
+  }
+  .faqsheaderblock .title {
+    line-height: 32px !important;
+  }
+
+  .contact-container .candle {
+    background-size: 45% !important;
+  }
+
+  .contact-container p {
+    text-align: left !important;
+  }
+
+  .index-favoritemarkets .index-wrapperfavorite {
+    background-position-y: 460px !important;
+  }
+
+  .index-bigplayer .col-md-6 h2 {
+    line-height: 24px !important;
+  }
+  .container .reviewall h1 {
+    line-height: 24px !important;
+  }
+
+  div.carousel-item:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > img:nth-child(2) {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .stocks-mbl-slider-img {
+    height: 50px !important;
+  }
+  .stocks-mbl-slider-img img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  div.carousel-item:nth-child(3)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1) {
+    height: 45px !important;
+  }
+
+  div.carousel-item:nth-child(4)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1) {
+    height: 35px !important;
+  }
+
+  #maincontentblock .popularStocks {
+    text-align: center !important;
+  }
+
+  #favoritemarkets h1 {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height: 24px !important;
+  }
+
+  .app-col-md-5 .title {
+    line-height: 34px !important;
+  }
+
+  #copy-trading-blck-button {
+    font-size: 18px;
+    display: block;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+  }
+
+  #tradesmart.partnerstradesmart .mobiletrade.movingdownblock {
+    margin-bottom: 27px !important;
+    margin-top: 20px !important;
+  }
+
+  #copy-trading-steps-pic {
+    max-width: 80% !important;
+    margin-top: 200px !important;
+  }
+
+  .tradingtools .secretsblock .headtitle .candle {
+    background-size: 50% !important;
+  }
+
+  .cfd-trading-container > .row > .col-md-4 > .img-fluid {
+    max-width: 60%;
+  }
+
+  #maincontentblock.accounttypes #acc-types-titledesci {
+    text-align: center !important;
+  }
+
+  .aboutus .wrapperblock .candle {
+    background-size: 45%;
+    top: -115px;
+
+    left: 5px;
+  }
+
+  .partners-col-md-7 strong {
+    font-weight: 600 !important;
+  }
+
+  .ourcommitment > .row:nth-child(2) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ourcommitment > div:nth-child(2) > div > div:nth-child(1) > h2:nth-child(2) {
+    margin-bottom: 10px !important;
+    height: auto;
+  }
+
+  #maincontentblock .ourcommitment .boxedcover p {
+    height: 60px;
+  }
+
+  #tradesmart.partnerstradesmart .mobiletrade {
+    width: 82% !important;
+    display: block !important;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
+
+  #tradesmart.partnerstradesmart .wrappertrade {
+    padding-top: 30px !important;
+  }
+
+  .affiliate-col-md-3-list {
+    display: none;
+  }
+
+  .affiliate-col-md-3-list-mobile {
+    display: block;
+  }
+
+  .affiliate-col-md-3-list-mobile .boxedcover {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .affiliate-col-md-3-list-mobile ul {
+    margin-left: 15px;
+    padding-left: 0;
+  }
+
+  #maincontentblock .ourcommitment .boxedcover h2 {
+    margin-bottom: 20px;
+  }
+
+  #about-us-guy {
+    width: 100% !important;
+  }
+
+  div.about-us-fourblocks:nth-child(3)
+    > div:nth-child(2)
+    > div:nth-child(1)
+    > h2:nth-child(1) {
+    line-height: 30px !important;
+  }
+
+  div.about-us-fourblocks:nth-child(4)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > h2:nth-child(1) {
+    line-height: 30px !important;
+  }
+
+  .whyusblock .imgsmart {
+    height: auto !important;
+  }
+
+  .whyusblock .headlinesmart .candle {
+    background-size: 42% !important;
+    top: -62px;
+  }
+
+  .why-us-listingblock {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .careers-col-md-5-header {
+    display: none !important;
+  }
+  .careers-col-md-5-header-mobile {
+    width: 75%;
+  }
+
+  .contactpage .glassess p {
+    height: auto;
+  }
+
+  .contactpage h2.title {
+    margin-top: 0;
+  }
+
+  #maincontentblock.contactpage {
+    padding-top: 85px;
+  }
+
+  #maincontentblock.contactpage .candle {
+    top: 70px;
+  }
+
+  #maincontentblock .platformblock h2.title {
+    padding-top: 44px;
+  }
+  #maincontentblock.aboutus.ibsection
+    div.platformblock
+    div.withbanner.ib-withbanner
+    div.container
+    div.row
+    div.col-md-12
+    a.buttons {
+    display: block !important;
+    margin: 0 auto !important;
+    width: fit-content !important;
+  }
+
+  #maincontentblock.aboutus.ibsection.affiliates
+    div.platformblock
+    div.withbanner.affiliate-withbanner
+    div.container
+    div.row
+    div.col-md-12
+    h2.title {
+    margin-top: 150px !important;
+  }
+
+  .withbanner.copy-trading-withbanner #copy-trading-title {
+    font-size: 20px !important;
+    line-height: 22px 1;
+    margin-top: 20px !important;
+  }
+
+  .ib-withbanner {
+    background-size: contain !important;
+    margin-top: -250px;
+  }
+
+  #maincontentblock.affiliates h2.title {
+    text-align: left !important;
+  }
+  #maincontentblock.affiliates .titledesci {
+    text-align: left !important;
+  }
+
+  #maincontentblock.aboutus.ibsection.copytrading
+    div.platformblock
+    div.withbanner.copy-trading-withbanner
+    div.container
+    div.row
+    div.col-md-12
+    h2#copy-trading-title.title {
+    padding-top: 80px !important;
+    line-height: 22px !important;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #maincontentblock.aboutus.ibsection
+    div.platformblock
+    div.withbanner.ib-withbanner {
+    background-size: contain !important;
+    height: auto !important;
+  }
+
+  #maincontentblock.aboutus.ibsection
+    div.platformblock
+    div.withbanner.ib-withbanner {
+    margin-top: 44px !important;
+    height: 713px !important;
+  }
+
+  #maincontentblock.aboutus.ibsection
+    div.platformblock
+    div.withbanner.ib-withbanner
+    div.container
+    div.row
+    div.col-md-12
+    h2.title {
+    margin-top: 142px !important;
+    padding-top: 0 !important;
+  }
+
+  #maincontentblock.aboutus.ibsection
+    div.platformblock
+    div.container
+    div.wrappers
+    div.wrapperblock.modified.ib-modified {
+    margin-top: 0 !important;
+  }
+
+  #maincontentblock.aboutus.ibsection.copytrading
+    div.platformblock
+    div.container
+    div.wrappers
+    div.wrapperblock.modified
+    div.offerus.copy-trading-offerus
+    div.row.fourblocks.copy-trading-fourblocks
+    div.col-md-6
+    a.buttons.copy-trading-button-mobile {
+    display: none !important;
+  }
+
+  .affiliate-h2-title {
+    padding-top: 120px !important;
+    margin-left: 20px;
+  }
+
+  .affiliate-p-titledesci {
+    margin-left: 20px;
+  }
+
+  .trading-basics-platformblock {
+    margin-top: -258px;
+  }
+
+  #maincontentblock.aboutus.ibsection.careersblock.tradingbasics
+    div.platformblock.trading-basics-platformblock
+    div.withbanner.trading-basics-withbanner {
+    padding-top: 240px !important;
+  }
+
+  .trading-basics-withbanner {
+    background-size: contain !important;
+  }
+  .trading-basics-withbanner .page-hdr-buttons {
+    margin-top: 237px;
+  }
+
+  .tradingbasics > .listingblocker {
+    margin-top: -334px;
+  }
+
+  #tradesmart
+    div.container
+    div.row
+    div.col-md-12
+    div.wrappertrade.index-wrappertrade
+    div.tabs.index-tabs
+    div#tabs-content.index-tabs-content
+    div
+    ul {
+    margin-left: 0 !important;
+  }
+
+  #tradesmart #tab1 .mobiletrade {
+    margin-right: -5px !important;
+    margin-top: 10px !important;
+    width: 60% !important;
+  }
+  #tradesmart #tab3 .mobiletrade {
+    margin-right: -20px !important;
+  }
+
+  #maincontentblock div.container div.row.whytochoose div.col-md-12 h1 {
+    line-height: 28px !important;
+  }
+
+  #maincontentblock div.container div.row.tradecfds div.col-md-12 h1 {
+    line-height: 28px !important;
+  }
+
+  #why-trade-cfds-with {
+    text-align: center;
+    line-height: 26px !important;
+  }
+
+  #why-trade-cfds-with-subtexts {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  #in-4-simple-steps {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 26px !important;
+  }
+
+  .index-why-us {
+    padding-bottom: 20px !important;
+  }
+
+  .index-tradesmart {
+    padding-bottom: 30px !important;
+  }
+
+  .index-headline {
+    margin-bottom: 40px !important;
+  }
+
+  .commodities-candle {
+    top: 124px !important;
+  }
+
+  .cmdd-wrapperblock {
+    margin-top: 124px !important;
+  }
+
+  .ourcommitment > .row:nth-child(2) > .col-md-3 {
+    width: 100%;
+    margin-bottom: -4px;
+  }
+
+  #header .mainmenu li {
+    border: 0 !important;
+  }
+
+  #header
+    div.container
+    div.row
+    div.col-md-8
+    ul.mainmenu
+    li.menu-item-has-children.only-tablet
+    a.buttons.inline {
+    height: 42px !important;
+  }
+
+  #footer .paymentshare .share img {
+    height: 30px !important;
+  }
+
+  #footer .share {
+    display: grid;
+    grid-template-columns: 25% 10% 10% 10% 10%;
+  }
+
+  #footer .ftmenu > li:nth-child(3) {
+    margin-top: 20px;
+  }
+
+  .ftmenu > li > ul > li {
+    margin-top: 2px;
+  }
+
+  .ftmenu > li:nth-child(4) {
+    margin-top: 20px !important;
+  }
+
+  .footer-downloads {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100%;
+    column-gap: 2px;
+    row-gap: 1px;
+  }
+
+  .downloads > img:nth-child(3),
+  .downloads > img:nth-child(4) {
+    margin-top: 0;
+  }
+
+  #header {
+    backdrop-filter: blur(7px);
+  }
+
+  #header
+    div.container
+    div.row
+    div.col-md-8
+    ul.mainmenu
+    li.abc.only-tablet
+    a.buttons.inline {
+    height: 42px !important;
+    width: 100%;
+  }
+
+  .contactin {
+    display: grid;
+    grid-template-columns: 22% 30%;
+    column-gap: 12px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+  }
+
+  .contactin > h2:nth-child(1) {
+    margin-top: 6px;
+  }
+
+  #menubutton {
+    background-size: 22px;
+  }
+
+  .glossary-letters {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .gloss-container {
+    margin-top: -30px;
+  }
+
+  .accordion-body > table > tbody > tr > td:first-child {
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+  .accordion-body > table > tbody > tr > td:first-child img {
+    height: 32.5px;
+  }
+
+  .accordion-body > table > thead > tr > th {
+    font-size: 10px;
+    color: #190787;
+  }
+
+  .accordion-body > table > tbody > tr > td {
+    height: 60px;
+  }
+
+  .accordion-body br {
+    display: block !important;
+  }
+
+  .trading-hours-accorddion tbody > tr > td:nth-child(2),
+  .trading-hours-accorddion tbody > tr > td:nth-child(3) {
+    padding-top: 7px;
+  }
+
+  .accordion-currencies tbody > tr > td:first-child {
+    display: grid;
+    grid-template-columns: 40% 60% !important;
+  }
+
+  .careers-col-md-5-header-mobile {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+  }
+
+  .cl-md5-careers > p {
+    padding: 0 20px;
+  }
+  .cl-md5-careers > .buttons {
+    display: block !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 36 20px !important;
+    margin-bottom: -65px !important;
+    margin-top: 38px !important;
+  }
+
+  .col-md-12 > .titlecareer {
+    line-height: 22px !important;
+  }
+
+  .register-footer {
+    margin-top: -44px;
+  }
+
+  .job-post-right > .job-candle {
+    width: 25px;
+    position: absolute;
+    top: -40px;
+    right: 20px;
+  }
+
+  .job-post-right > .container form {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .job-post-right > .container form > .form-group {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .chosen-file {
+    font-size: 16px !important;
+    margin-top: 10px !important;
+  }
+
+  .form-group.resumeUpload .custom-file-input label {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .custom-file-input {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    text-align: center;
+  }
+
+  .visa-sponsorship {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .visa-sponsorship p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-weight: 600 !important;
+  }
+
+  .visa-sponsorship > div:nth-child(4) {
+    grid-column-start: 1 !important;
+    grid-column-end: 3 !important;
+  }
+
+  .job-post-right .resume,
+  .job-post-right .resumeUpload,
+  .job-post-right .visa-sponsorship,
+  .job-post-right .notice-period,
+  .job-post-right .salary-expectation,
+  .job-post-right .about-yourself {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .form-control {
+    font-size: 14px !important;
+  }
+
+  .job-post-maincontentblock .wrapperblock {
+    padding: 30px 20px !important;
+  }
+
+  .job-post-maincontentblock {
+    padding-bottom: 100px !important;
+  }
+
+  .job-post-left li {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: ;
+  }
+  .job-post-left ul {
+    padding-left: 14px;
+    text-align: justify;
+    padding-right: 14px;
+  }
+
+  .carousel-item > .row > .col-md-5 > h5 {
+    margin-left: 20px !important;
+    width: 75% !important;
+    text-align: center;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+    margin-bottom: 15px !important;
+  }
+  .carousel-item > .row > .col-md-5 > p {
+    max-width: 75% !important;
+    margin: 0 auto !important;
+    text-align: center;
+    margin-bottom: 15px !important;
+  }
+  .carousel-item > .row > .col-md-5 > .elicon {
+    max-width: 100% !important;
+    margin-left: 47px !important;
+    row-gap: 5px;
+  }
+  .carousel-item > .row > .col-md-5 > .elicon > span:nth-child(3) > img {
+    height: 12px !important;
+  }
+
+  .invert > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) {
+    width: 100% !important;
+  }
+
+  .index-main-slider-buttonz {
+    row-gap: 10px;
+  }
+
+  .index-main-slider-buttonz > a {
+    width: 161px !important;
+    height: 43px !important;
+    width: 75% !important;
+  }
+
+  .index-first-carousel > div > div:nth-child(1) > div:nth-child(2) {
+    margin-top: -18px;
+  }
+
+  .index-main-slider-buttonz {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90% !important;
+  }
+
+  #slider #mainslider .buttons.inline {
+    height: 35px !important;
+    font-size: 16px !important;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slider-vip-buttonz > a:nth-child(2) {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #slider
+    div.container
+    div.row
+    div.col-md-12
+    div#mainsliderouter
+    div#mainslider.carousel.slide.index-motha-slider.pointer-event
+    div.carousel-inner.index-first-carousel.wow.fadeIn
+    div.carousel-item.invert.active
+    div.row
+    div.col-md-5
+    div.index-main-slider-buttonz
+    a#copy-tradig-first-btn.buttons.inline,
+  #slider
+    div.container
+    div.row
+    div.col-md-12
+    div#mainsliderouter
+    div#mainslider.carousel.slide.index-motha-slider.pointer-event
+    div.carousel-inner.index-first-carousel.wow.fadeIn
+    div.carousel-item.active
+    div.row
+    div.col-md-5
+    div.index-main-slider-buttonz
+    a.buttons.inline {
+    font-size: 13px !important;
+  }
+
+  #slider
+    div.container
+    div.row
+    div.col-md-12
+    div#mainsliderouter
+    div#mainslider.carousel.slide.index-motha-slider.pointer-event
+    div.carousel-inner.index-first-carousel.wow.fadeIn
+    div.carousel-item.invert.mn-slider.active
+    div.row
+    div.col-md-5
+    div.index-main-slider-buttonz
+    a.buttons.inline,
+  #slider
+    div.container
+    div.row
+    div.col-md-12
+    div#mainsliderouter
+    div#mainslider.carousel.slide.index-motha-slider.pointer-event
+    div.carousel-inner.index-first-carousel.wow.fadeIn
+    div.carousel-item.invert.deposit-slide.active
+    div.row
+    div.col-md-5
+    div.index-main-slider-buttonz
+    a.buttons.inline {
+    font-size: 11px !important;
+  }
+
+  .carousel-item > .row > .col-md-7 {
+    margin: 0 auto !important;
+  }
+  .carousel-item > .row > .col-md-7 > img {
+    margin: 0 auto !important;
+  }
+
+  #slider
+    div.container
+    div.row
+    div.col-md-12
+    div#mainsliderouter
+    div#mainslider.carousel.slide.index-motha-slider.pointer-event
+    div.carousel-inner.index-first-carousel.wow.fadeIn
+    div.carousel-item.invert.mn-slider.active
+    div.row
+    div.col-md-7
+    img.d-block.w-100.twok-slide-img,
+  html
+    body
+    section#slider
+    div.container
+    div.row
+    div.col-md-12
+    div#mainsliderouter
+    div#mainslider.carousel.slide.index-motha-slider.pointer-event
+    div.carousel-inner.index-first-carousel.wow.fadeIn
+    div.carousel-item.invert.mn-slider.active
+    div.row
+    div.col-md-7
+    img.d-block.w-100.referral-slide-img,
+  html
+    body
+    section#slider
+    div.container
+    div.row
+    div.col-md-12
+    div#mainsliderouter
+    div#mainslider.carousel.slide.index-motha-slider.pointer-event
+    div.carousel-inner.index-first-carousel.wow.fadeIn
+    div.carousel-item.invert.deposit-slide.active
+    div.row
+    div.col-md-7
+    img.d-block.w-100.deposit-slide-img {
+    margin-top: 30px !important;
+  }
+
+  div.invert:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > span:nth-child(3),
+  div.carousel-item:nth-child(6)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > span:nth-child(3),
+  div.carousel-item:nth-child(7)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > span:nth-child(3) {
+    margin-left: 3px;
+  }
+  div.invert:nth-child(2)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > span:nth-child(3)
+    > img,
+  div.carousel-item:nth-child(6)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > span:nth-child(3)
+    > img,
+  div.carousel-item:nth-child(7)
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > div:nth-child(3)
+    > span:nth-child(3)
+    > img {
+    margin-right: 4px !important;
+  }
+
+  #slider #mainslider .buttons:nth-child(2) {
+    height: 35px !important;
+    margin-top: 0 !important;
+    line-height: 10px;
+    font-size: 12px !important;
+  }
+
+  div.carousel-item:nth-child(6)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1),
+  div.carousel-item:nth-child(7)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1),
+  div.carousel-item:nth-child(8)
+    > div:nth-child(1)
+    > div:nth-child(2)
+    > img:nth-child(1) {
+    max-width: 82%;
+  }
+
+  #footer .ftmenu > li:nth-child(5) {
+    margin-top: -71px;
+  }
+
+  .lang-options {
+    width: 150px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .lang:hover > .lang-options {
+    transform: translateY(80px) !important;
+    opacity: 1;
+  }
+
+  .container-trending-stocks {
+    margin-bottom: 14px;
+    padding-bottom: 20px;
+  }
+
+  #maincontentblock.ibsection .withbanner {
+    background-position-y: 100px !important;
+  }
+  #maincontentblock.ibsection .withbanner {
+    background-position-y: 100px !important;
+  }
+
+  section#maincontentblock.aboutus.ibsection.copytrading
+    div.platformblock
+    div.withbanner.copy-trading-withbanner {
+    background-position-y: 200px !important;
+  }
+
+  #ebook-wrapper {
+    padding: 10px;
+    padding-top: 44px;
+    margin-bottom: 97px;
+  }
+
+  #ebook-download-grid > .left-side > img {
+    max-width: 90%;
+  }
+
+  #ebook-download-grid > .right-side > p:nth-child(1) {
+    max-width: 90%;
+    line-height: 1.1 !important;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 30px !important;
+  }
+  #ebook-download-grid > .right-side > p:nth-child(2) {
+    max-width: 80%;
+    margin: auto;
+  }
+}

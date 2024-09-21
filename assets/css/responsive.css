@@ -1,0 +1,1585 @@
+body {
+  position: relative;
+}
+
+@media all and (min-width: 767px) {
+  .tradingtools .secretsblock .blockssmall {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .showblocks {
+    width: 600px !important;
+    display: flex;
+  }
+  .showblocks .colblock li:first-child {
+    border-bottom: 1px solid #e7e7e7;
+    font-weight: 600;
+    width: 90% !important;
+    padding: 8px 0;
+    padding-left: 40px;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .mainmenu li:last-child .showblocks {
+    width: 550px !important;
+  }
+  .showblocks .colblock:nth-child(1) {
+    background-image: url(../img/platform_m.svg) !important;
+    background-position-y: 5px !important;
+    background-repeat: no-repeat;
+    background-size: 30px;
+  }
+  .showblocks .colblock:nth-child(2) {
+    background-image: url(../img/application_m.svg) !important;
+    background-position-y: 5px !important;
+    background-repeat: no-repeat;
+    background-size: 25px;
+  }
+  .showblocks .colblock:nth-child(3) {
+    background-image: url(../img/info_m.svg) !important;
+    background-position-y: 5px !important;
+    background-repeat: no-repeat;
+    background-size: 25px;
+  }
+}
+@media all and (max-width: 767px) {
+  #menubutton {
+    display: block;
+  }
+  #header .mainmenu {
+    display: none;
+  }
+  #header .lang {
+    position: absolute;
+    right: 55px;
+  }
+  #header .logo img {
+    height: 23px;
+  }
+  #header .langcode {
+    font-size: 12px;
+  }
+  #header .arrow {
+    margin-top: 8px;
+  }
+  #header .langcountry {
+    display: none;
+  }
+  #header .langcode {
+    border-right: none;
+  }
+  #slider #mainslider h5 {
+    font-size: 2em;
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 32px;
+  }
+  #slider #mainslider p {
+    margin-left: 20px;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  #slider #mainslider .buttons.inline {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  #slider #mainslider .buttons {
+    margin-left: 20px;
+  }
+  #whyus h2 {
+    font-size: 2em;
+  }
+  #whyus p {
+    font-size: 12px;
+  }
+  #whyus p br {
+    display: none;
+  }
+  #whyus {
+    padding-top: 20px;
+  }
+  #whyus .glasswhy h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    line-height: 30px;
+  }
+  #whyus .glasswhy {
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    padding: 25px 30px;
+  }
+  #whyus .modileft {
+    left: inherit;
+  }
+  #whyus .row.nomargin .glassblock {
+    margin-bottom: 30px;
+  }
+  #blocks .glassblock {
+    margin-bottom: 20px;
+  }
+  #tradesmart .wrappertrade {
+    padding: 0px 30px;
+  }
+  #tradesmart .toplinks {
+    margin-top: 45px;
+    margin-bottom: 50px;
+  }
+  #tradesmart .toplinks a {
+    padding: 0px 12px;
+    margin-right: 5px;
+  }
+  #header .toplinks {
+    display: none;
+  }
+  #tradesmart .wrappertrade h2 {
+    font-size: 2em;
+    line-height: 28px;
+  }
+  #tradesmart .wrappertrade p {
+    color: #fff;
+    font-size: 14px;
+  }
+  #tradesmart .wrappertrade p br {
+    display: none;
+  }
+  #tradesmart .wrappertrade ul {
+    font-size: 14px;
+  }
+  #tradesmart .wrappertrade .buttons {
+    z-index: 99;
+    position: relative;
+    margin-bottom: 45px;
+  }
+  #tradesmart .mobiletrade {
+    bottom: 0;
+    width: 80%;
+    position: inherit;
+    right: inherit;
+    height: auto;
+  }
+  #favoritemarkets {
+    padding: 30px;
+  }
+  #tradesmart .blureffect.right {
+    top: 190px;
+    background: url(../img/blureffectv2.webp) no-repeat center;
+    background-size: 750px;
+  }
+  #favoritemarkets h1 {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 39px;
+    text-align: center;
+  }
+  #favoritemarkets .candle {
+    height: 60px;
+    background-size: 40%;
+    top: -80px;
+  }
+  #whyus .candle {
+    height: 100px;
+    background-size: 50%;
+    top: -90px;
+  }
+  #header {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #slider #mainsliderouter {
+    border-radius: 20px;
+  }
+  #favoritemarkets .wrapperfavorite {
+    padding: 15px 30px;
+  }
+  #favoritemarkets .toplinks a {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  #favoritemarkets .contentblock h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  #favoritemarkets .contentblock p {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  #favoritemarkets .contentblock .buttons {
+    font-size: 15px;
+    margin: 20px 0;
+  }
+  #favoritemarkets .contentblock .links {
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+  }
+  #favoritemarkets .contentblock .trstock {
+    margin-top: 40px;
+    width: 60%;
+    margin-bottom: 60px;
+  }
+  #favoritemarkets .wrapperfavorite {
+    background-position-x: 60%;
+    background-position-y: 45%;
+    background-size: 170%;
+  }
+  #favoritemarkets .glassblock {
+    margin-bottom: 20px;
+  }
+  #favoritemarkets .contentblock h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  #bigplayer h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  #bigplayer h1 br {
+    display: none;
+  }
+  #bigplayer .wraperbig h2 br {
+    display: none;
+  }
+  #bigplayer .wraperbig p {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  #bigplayer .wraperbig h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+  #favoritemarkets .glassblock a {
+    float: left;
+  }
+  #bigplayer .wraperbig .buttons {
+    font-size: 16px;
+  }
+  #bigplayer .wraperbig .links {
+    display: block;
+    font-size: 14px;
+  }
+  #bigplayer .copytradingimg {
+    margin-top: 25px;
+    width: 100%;
+    margin-left: inherit;
+  }
+  #bigplayer .wraperbig h2 {
+    font-size: 2em;
+    margin-top: 60px;
+    line-height: 26px;
+  }
+  #bigplayer .glassblock:after {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: url(../img/steps_4.png) no-repeat center;
+    background-size: 46%;
+    display: block;
+    position: absolute;
+    top: 113px;
+    transform: rotate(90deg);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #bigplayer .glassblock {
+    margin-bottom: 40px;
+  }
+  #bigplayer .glassblock .desci br {
+    display: none;
+  }
+  #bigplayer .glassblock .stepico {
+    float: left;
+    margin-right: 10px;
+    height: 30px;
+  }
+  #bigplayer .glassblock .desci {
+    margin-bottom: 0px;
+    font-size: 11px;
+    line-height: 10px;
+    text-align: inherit;
+  }
+  #bigplayer .glassblock h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 13px;
+  }
+  #primepromo h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  #primepromo .glassblocksmall {
+    padding: 20px 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  #primepromo .glassblocksmall.left {
+    left: inherit;
+  }
+  #primepromo .glassblock {
+    padding: 30px;
+  }
+  #primepromo .reviewall h1 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  #primepromo .trustpilot {
+    display: table;
+    margin: 0 auto;
+    width: auto;
+    font-size: 12px;
+  }
+  #vippromo .bonuspack {
+    position: absolute;
+    right: 70px;
+    top: 300px;
+    height: 260px;
+  }
+  #primepromo .trustpilot .texts {
+    margin-left: 6px;
+    font-size: 12px;
+  }
+  #primepromo .glassblocksmall.right {
+    right: inherit;
+  }
+  #vippromo .candlebonus {
+    position: absolute;
+    top: -70px;
+    right: 40px;
+    width: 14%;
+  }
+  #vippromo .promoblock {
+    background: url(../img/bgpromo.webp) no-repeat center;
+    background-size: 320%;
+    background-position-y: 10px;
+    background-color: #000;
+    padding-bottom: 160px;
+  }
+  #vippromo .promoblock .buttons {
+    font-size: 14px;
+  }
+  #callto h1 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 29px;
+  }
+  #callto .calltoblock p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #callto .glassblock {
+    margin-bottom: 50px;
+  }
+  #callto .glassblock .stepico {
+    margin-right: 10px;
+    display: inline-block;
+    width: 33%;
+  }
+  #callto .glassblock:after {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: url(../img/steps_4.png) no-repeat center;
+    background-size: 46%;
+    display: block;
+    position: absolute;
+    top: 114px;
+    transform: rotate(90deg);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #callto .glassblock {
+    margin-bottom: 50px;
+    display: flex;
+    margin: 25px auto;
+  }
+  #callto .glassblock .desci {
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+  }
+  #callto .glassblock .desci br {
+    display: none;
+  }
+  #callto .calltoblock {
+    padding-bottom: 0px;
+  }
+  #bigplayer .wraperbig h2 br {
+    display: none;
+  }
+  #footer .ftlogo img {
+    height: 30px;
+  }
+  #footer {
+    padding: 30px;
+    background: #000;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  #footer .downloads img {
+    height: 35px;
+  }
+  #footer .contactin {
+    margin-top: 20px;
+  }
+  #footer .contactin h2 small {
+    font-size: 13px;
+    float: left;
+    margin-right: 35px;
+  }
+  #footer .ftmenu {
+    display: block;
+    margin-left: inherit;
+    margin-top: 15px;
+  }
+  #footer .ftmenu > li {
+    width: 50%;
+    float: left;
+  }
+  #footer .ftmenu > li:nth-child(3) {
+    margin-top: -90px;
+  }
+  #footer .ftmenu > li:nth-child(4) {
+    margin-top: 30px;
+  }
+  #footer .ftmenu > li:nth-child(5) {
+    margin-top: -140px;
+  }
+  #footer .ftmenu li {
+    font-size: 11px;
+    line-height: 12px;
+  }
+  #footer .payments img {
+    height: 11px;
+  }
+  #footer .payments span br {
+    display: none;
+  }
+  #footer .payments span {
+    color: #fff;
+    line-height: 13px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    float: left;
+    margin-right: 17px;
+    font-size: 10px;
+  }
+  #footer .paymentshare .share img {
+    height: 20px;
+  }
+  #footer .usefulelinks li {
+    margin-left: 0px;
+  }
+  #footer .ftmenu li h2 {
+    font-size: 22px;
+  }
+  #footer .disclaimer {
+    color: #fff;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 10px;
+  }
+  #footer .payments {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  #menubutton {
+    display: block;
+    background: url(../img/menu-button.svg) no-repeat center;
+    height: 50px;
+    width: 50px;
+    background-size: 35px;
+    position: absolute;
+    right: 6px;
+    top: 10px;
+  }
+  /* #menubutton.close X CLOSE{
+    display: block;
+    background: url(../img/close.png) no-repeat center;
+    height: 50px;
+    width: 50px;
+    background-size: 15px;
+    position: absolute;
+    right: 6px;
+    top: 10px;
+  } */
+  #header .mainmenu {
+    padding-top: 30px;
+    margin-left: 0px;
+  }
+  #header .mainmenu li a {
+    font-size: 13px;
+  }
+  #header .mainmenu li {
+    float: none;
+  }
+  #header .toplinks.open {
+    display: flex !important;
+  }
+  #header .toplinks.open {
+    margin-top: 18px;
+    float: none;
+  }
+  #header .mainmenu li {
+    float: none;
+    border-top: 1px solid #efefef;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  #header .mainmenu .sub-menu {
+    display: none;
+  }
+  /* #header .mainmenu .menu-item-has-children:hover .sub-menu {
+    display: block;
+    position: relative;
+    width: 100%;
+  } */
+  #header .mainmenu .menu-item-has-children .sub-menu li {
+    border: none;
+  }
+  #header .menu-item-has-children > a:after {
+    position: absolute;
+    right: 30px;
+  }
+  #header .toplinks.open .buttons {
+    font-size: 14px !important;
+    text-align: center;
+    width: 100%;
+  }
+  #maincontentblock .discoverstock .glassblock {
+    margin-bottom: 20px;
+  }
+  #maincontentblock .tradecfds h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  #maincontentblock .tradecfds p br {
+    display: none;
+  }
+  #maincontentblock .tradecfds p {
+    text-align: center;
+    font-size: 14px;
+  }
+  #maincontentblock .tradecfds .candle {
+    background-size: 60%;
+    top: 130px;
+  }
+  #maincontentblock .wrapperblock {
+    padding: 30px 40px;
+  }
+  #maincontentblock .wrapperblock h2 {
+    font-size: 1.5em;
+  }
+  #maincontentblock img.stockimgs {
+    width: 100%;
+    margin-top: 30px;
+  }
+  #maincontentblock .whytochoose h1 {
+    font-size: 2em;
+    line-height: 31px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .blureffect.goesleft.aos-init.aos-animate {
+    display: none;
+  }
+  .platformblock {
+    margin-top: -90px;
+  }
+  #maincontentblock .platformblock h2.title {
+    font-size: 2em;
+  }
+  .elevateblock .buttons,
+  .platformblock .buttons {
+    margin-top: 10px !important;
+  }
+  #maincontentblock .platformblock .webtraderblockimg {
+    position: relative;
+    margin-top: 50px;
+  }
+  #maincontentblock .elevateblock .headingblock h2 {
+    font-weight: 700;
+    font-size: 16px;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  #maincontentblock .elevateblock .candle {
+    background: url(https://www.24markets.com/assets/img/candle.webp) no-repeat center;
+    top: 0px;
+    background-size: 50%;
+  }
+  #maincontentblock p br {
+    display: none;
+  }
+  #maincontentblock .elevateblock .headingblock p {
+    line-height: 14px;
+    font-size: 12px;
+  }
+  #maincontentblock .threeblocks {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  #maincontentblock .threeblocks .glassblock p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 0px;
+  }
+  #maincontentblock .threeblocks .glassblock {
+    margin-bottom: 30px;
+  }
+  #maincontentblock .elevateblock .blocking .contentblock p {
+    line-height: 14px;
+    font-size: 12px;
+  }
+  #maincontentblock .elevateblock .blocking .contentblock {
+    margin-top: 0px;
+  }
+  #maincontentblock .blockglasser {
+    padding: 50px 30px;
+  }
+  .faqblocks {
+    padding-bottom: 50px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .faqblocks .headline {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .faqblocks .link {
+    font-size: 14px;
+  }
+  .faqblocks .faqimg {
+    width: 40%;
+    margin: 10px auto;
+    display: table;
+    position: relative;
+  }
+  button.accordion-button {
+    font-size: 13px;
+  }
+  .accordion-body {
+    font-size: 11px;
+    line-height: 12px;
+  }
+  a.btmlink {
+    margin-top: 30px !important;
+  }
+  .downloadblc ul li a {
+    width: 110px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .downloadblc ul li a img {
+    height: 17px;
+  }
+  .downloadblc ul li:last-child a {
+    width: 130px;
+    margin-left: 40%;
+  }
+  #maincontentblock .platformblock h2.title {
+    line-height: 30px;
+  }
+  p.justifycontent {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .modifiedbox .col-md-3:nth-child(4) .glassblock,
+  .modifiedbox .col-md-3:nth-child(3) .glassblock,
+  .modifiedbox .col-md-3:nth-child(2) .glassblock,
+  .modifiedbox .col-md-3:nth-child(1) .glassblock {
+    position: inherit !important;
+    width: 100% !important;
+  }
+  .portraitmobile {
+    margin-bottom: 0px;
+  }
+  .aboutus .offerus .fourblocks .col-md-6:last-child {
+    padding-left: 15px;
+  }
+  .aboutus .offerus .fourblocks .col-md-6:first-child {
+    padding-right: 15px;
+  }
+  #maincontentblock .ourcommitment .boxedcover {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  .aboutus .stockimgs {
+    width: 100%;
+  }
+  #header .mainmenu li a {
+    padding: 10px 18px;
+  }
+  .modal .modal-content h2 {
+    font-size: 1.2em;
+  }
+  .modal-content p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .modal.show .modal-dialog {
+    margin: 50px 10px;
+  }
+  .modal-content p br {
+    display: none;
+  }
+  .modal-content .centerblock {
+    text-align: center;
+    margin-top: 7px;
+  }
+  .modal-content {
+    padding: 30px 19px;
+  }
+  .buttons {
+    font-size: 13px !important;
+  }
+  p {
+    font-size: 13px !important;
+    line-height: 15px !important;
+    letter-spacing: -0.3px;
+  }
+  p br {
+    display: none;
+  }
+  br {
+    display: none !important;
+  }
+  h1 {
+    font-size: 1.7em !important;
+    line-height: 20px !important;
+    letter-spacing: -0.3px;
+  }
+  h2 {
+    font-size: 1.5em !important;
+    line-height: 20px !important;
+    letter-spacing: -0.3px;
+  }
+  h3 {
+    font-size: 1.2em !important;
+    line-height: 20px !important;
+    letter-spacing: -0.3px;
+  }
+  #mainslider h5 {
+    font-size: 1.5em !important;
+    line-height: 20px !important;
+    letter-spacing: -0.3px;
+  }
+  #favoritemarkets .toplinks a {
+    margin: 5px 0;
+  }
+  #bigplayer .glassblock {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 100%;
+    min-height: 150px;
+  }
+  .glassblock h2 {
+    font-size: 18px !important;
+    line-height: 15px !important;
+  }
+  #bigplayer .glassblock:after {
+    display: none;
+  }
+  #primepromo .glassblocksmall .desci {
+    font-size: 11px !important;
+    line-height: 13px !important;
+  }
+  #primepromo .glassblocksmall .stepico {
+    margin-bottom: 15px;
+  }
+  #vippromo .promoblock div {
+    font-size: 12px;
+  }
+  #vippromo .promoblock .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  #callto h1 {
+    margin-top: 70px;
+  }
+  .disclaimer p {
+    font-size: 12px !important;
+  }
+  #maincontentblock .discoverstock .topelements h1 {
+    font-size: 18px !important;
+  }
+  #maincontentblock .tradecfds.modififi .candle {
+    width: 30px;
+    height: 100px;
+    top: -45px;
+    z-index: 999;
+  }
+  .candle {
+    width: 45px !important;
+    height: 100px !important;
+  }
+  #maincontentblock .wrapperblock.inner ul,
+  #maincontentblock .wrapperblock.inner ol {
+    line-height: 17px;
+    font-size: 13px;
+  }
+  #maincontentblock {
+    padding-bottom: 40px;
+  }
+  #maincontentblock .threeblocks .glassblock p {
+    font-size: 12px !important;
+    line-height: 12px !important;
+  }
+  #maincontentblock .threeblocks .glassblock .icon {
+    margin-bottom: 25px;
+  }
+  #maincontentblock.copytrading .withbanner {
+    background-size: 130% !important;
+
+    padding: 80px 0;
+  }
+  #maincontentblock.copytrading .candle {
+    top: -20px;
+    left: 35px;
+  }
+  #maincontentblock.copytrading .wrapperblock {
+    margin-top: 50px !important;
+  }
+  #maincontentblock.copytrading .wrapperblock {
+    margin-top: 50px !important;
+    padding: 40px 30px !important;
+  }
+  #maincontentblock.copytrading .offerus .glassblock h2 {
+    line-height: 20px !important;
+  }
+  #maincontentblock.copytrading .offerus .fourblocks:nth-child(3) .glassblock {
+    margin-bottom: 20px !important;
+  }
+  .aboutus .offerus .glassblock {
+    margin-bottom: 20px !important;
+  }
+  #tradesmart.partnerstradesmart .mobiletrade.movingdownblock {
+    width: 100% !important;
+    margin: 20px 0 !important;
+  }
+  #tradesmart .wrappertrade ul {
+    font-size: 14px;
+    display: block;
+    clear: both;
+    margin-left: 87px;
+    padding-right: 20px;
+    font-size: 12px !important;
+  }
+  a.outlinebtn {
+    margin: 20px auto;
+    display: table;
+  }
+  .alertblockcall .col-md-12 {
+    position: relative;
+    z-index: 99;
+  }
+  .headline br {
+    display: none;
+  }
+  .tradingtools .secretsblock .glassblock {
+    margin-bottom: 20px;
+  }
+  .cardblockttool .imgblock {
+    width: 100%;
+  }
+  .cardblockttool .col-md-6:last-child {
+    padding-left: 30px;
+  }
+  .tradingtools .secretsblock .cardblockttool p {
+    padding-right: 30px;
+  }
+  .tradingtools .secretsblock .cardblockttool a {
+    margin-bottom: 30px;
+  }
+  .tradingtools .secretsblock .fundamental {
+    padding: 0 30px;
+  }
+  .tradingtools .secretsblock .fundamental h2 {
+    margin-top: 0px;
+  }
+  .tradingtools .secretsblock .fundamental .imgblock {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  .tradingtools .secretsblock .fundamental .col-md-6 {
+    position: relative;
+    z-index: 99;
+  }
+  .cfdtrading .sectioncfd .webtraderblockimg {
+    display: none;
+  }
+  .whycnt .fa {
+    display: block;
+    margin-top: 10px;
+    font-size: 0px;
+  }
+  .cfdtrading .sectioncfd .optionswhy {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+  .cfdtrading .sectioncfd .optionswhy .glassglow h2 {
+    font-size: 14px !important;
+  }
+  .cfdtrading .sectioncfd .optionswhy .glassglow {
+    margin-bottom: 20px;
+  }
+  .cfdtrading .sectioncfd .glassgloqhymarkets {
+    margin-top: 0px;
+  }
+  .cfdtrading .sectioncfd .glassgloqhymarkets {
+    padding: 25px 20px;
+    margin-bottom: 20px;
+  }
+  .cfdtrading .sectioncfd .glassgloqhymarkets .glassesblock {
+    margin-bottom: 25px;
+  }
+  .cfdtrading .sectioncfd .glassgloqhymarkets .glassesblock .cdftrico {
+    height: 35px;
+  }
+  .cfdtrading .sectioncfd .glassgloqhymarkets .modifiedrows {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .glassgloqhymarkets .modifiedrows .col-md-6 {
+    padding: 0px;
+  }
+  .accounttypes .acctypes .candle {
+    top: 80px;
+    z-index: 99;
+    margin-left: 15px;
+  }
+  #maincontentblock.accounttypes h2.title {
+    width: 60%;
+    margin: 20px auto;
+    margin-top: 0px;
+  }
+  .accounttypes .acctypes .typesAcc {
+    margin-top: 0px;
+  }
+  .AccCards {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .AccCards li {
+    font-size: 12px;
+  }
+  .accounttypes .acctypes .infobox {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .accounttypes .acctypes .glassessglow {
+    display: inline-block;
+  }
+  .accounttypes .acctypes .glassessglow img {
+    float: left;
+  }
+  .accounttypes .acctypes .glassessglow p {
+    margin-bottom: 0px;
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  .accounttypes .acctypes .glassessglow {
+    display: inline-block;
+    clear: both;
+    margin-bottom: 40px !important;
+  }
+  .accounttypes .acctypes .glassessglow a {
+    background: #fff;
+    margin-top: 3px;
+  }
+  .belowcnt span {
+    display: block;
+    margin: 15px 0;
+  }
+  .aboutus .wrapperblock {
+    margin-top: 80px !important;
+    padding: 34px 30px !important;
+  }
+  #maincontentblock.aboutus.partnersection .threeblocks .glassblock p {
+    font-size: 11px !important;
+    line-height: 12px !important;
+  }
+  #maincontentblock.aboutus.partnersection .threeblocks .glassblock .icon {
+    margin-bottom: 31px;
+  }
+  #maincontentblock .ourcommitment.partnerblock {
+    position: relative;
+    z-index: 999;
+    padding: 60px 0;
+  }
+  #tradesmart.partnerstradesmart .mobiletrade {
+    width: 100% !important;
+    margin: 20px 0 !important;
+  }
+  #tradesmart.partnerstradesmart .wrappertrade h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #tradesmart.partnerstradesmart .wrappertrade .buttons {
+    margin: 20px auto;
+    display: table;
+  }
+  .alertblockcall .buttons {
+    width: 100% !important;
+    margin: 5px auto !important;
+  }
+  #maincontentblock .ourcommitment.partnerblock {
+    z-index: 99;
+  }
+  #maincontentblock.ibsection .withbanner {
+    padding-top: 105px;
+    padding-bottom: 40px;
+    background-position-x: -500px;
+    background-position-y: 50px;
+  }
+  #maincontentblock.affiliates .candle,
+  #maincontentblock.ibsection .candle {
+    top: -60px;
+    left: 40px;
+  }
+  .wrapperblock.modified .col-md-6:last-child strong:first-child {
+    display: none;
+  }
+  #maincontentblock.ibsection .buttons {
+    font-size: 14px !important;
+  }
+  .wrapperblock.modified .img-fluid {
+    display: none;
+  }
+  .wrapperblock {
+    padding-bottom: 50px !important;
+  }
+  #maincontentblock .threeblocks {
+    margin-top: 0px;
+  }
+  .aboutus .modibox {
+    margin-top: 0px !important;
+  }
+  .aboutus .offerus .glassblock h2 {
+    font-size: 1.2em !important;
+  }
+  .whyusblock .heroblock h2 {
+    margin-top: 49px;
+    font-size: 3em;
+  }
+  .whyusblock .heroblock a {
+    z-index: 99;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .whyusblock .imgsmart {
+    margin-top: 0px;
+    position: absolute;
+    right: 0px;
+    height: 260px;
+    width: 100% !important;
+  }
+  .whyusblock .heroblock {
+    min-height: 390px;
+  }
+  .whyusblock .headlinesmart {
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 90px;
+  }
+  .whyusblock .headlinesmart h2 {
+    width: 70%;
+    display: table;
+    margin: 0 auto;
+  }
+  .row.headlinesmart .candle {
+    left: 30px;
+  }
+  .whyusblock .mobilphone {
+    float: none;
+    width: 60% !important;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .whyusblock .listingblock {
+    padding-right: 0;
+    margin-top: 111px;
+    padding: 30px;
+    font-size: 12px !important;
+  }
+  .whyusblock a.outlinebtn {
+    margin: 20px auto;
+    display: table;
+    padding: 5px 20px;
+    margin: 10px auto;
+  }
+  .blocksfour .glassblock .blockico {
+    width: 100%;
+  }
+  .blocksfour .col-md-6:nth-child(1) .glassblock {
+    margin: 5px 0px;
+  }
+  .blocksfour .col-md-6:nth-child(2) .glassblock {
+    margin: 5px 0px;
+  }
+  .blocksfour .col-md-6:nth-child(3) .glassblock {
+    margin: 5px 0px;
+  }
+  .blocksfour {
+    margin-bottom: 0px;
+  }
+  .alertblockcall {
+    margin-top: 50px;
+  }
+  .alertblockcall .headline {
+    font-weight: 700;
+    font-size: 1.2em !important;
+  }
+  #maincontentblock.careersblock .withbanner {
+    padding-top: 100px !important;
+    padding-bottom: 55px !important;
+  }
+  #maincontentblock.careersblock img.imgcareer {
+    width: 100%;
+  }
+  #maincontentblock.careersblock .blockcreers h2 {
+    margin-top: 40px;
+  }
+  .tabscareer .tabsnav ul li {
+    width: 100%;
+    margin: 5px auto;
+    font-size: 12px;
+  }
+  #maincontentblock.careersblock .candle {
+    top: -50px !important;
+    left: -10px;
+  }
+  .tabscontent .d-flex {
+    display: block !important;
+  }
+  .tabscareer .tabscontent {
+    margin: 0px;
+    padding: 40px 15px;
+  }
+  div#v-pills-tab {
+    width: 100%;
+  }
+  div#v-pills-tab button {
+    font-size: 15px;
+    margin: 0px;
+  }
+  div#v-pills-tabContent {
+    padding-top: 50px;
+  }
+  .careerblocksthree .glassblow h2 {
+    font-size: 1.3em !important;
+  }
+  #maincontentblock.faqsheaderblock .title {
+    width: 60%;
+    margin: 0 auto;
+    display: table;
+  }
+  .faqblocks .wraperblocks .candle {
+    left: 20px !important;
+  }
+  .faqblocks .wraperblocks .sidebarmenu .nav-link {
+    font-size: 12px;
+    padding: 5px 10px !important;
+  }
+  .faqblocks .wraperblocks .accordion {
+    margin-top: 30px;
+  }
+  #maincontentblock.faqsheaderblock {
+    padding-bottom: 0px;
+  }
+  .faqspage .headlinesblocks {
+    padding-bottom: 0px;
+  }
+  #maincontentblock.contactpage .candle {
+    top: 90px;
+  }
+  .contactpage .blockscontact.last {
+    margin-top: 0px;
+  }
+  .contactpage .contactforms {
+    padding: 0 20px;
+  }
+  .contactpage h2.title {
+    margin-top: -20px;
+  }
+  .regulationblock .candle {
+    top: 90px;
+  }
+  .regulationblock .candle {
+    top: 70px !important;
+    margin-left: 20px !important;
+  }
+  .regulationblock h2.title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: -30px !important;
+    margin-bottom: 30px;
+  }
+  .regulationblock .glassglowreg {
+    padding: 40px 15px;
+  }
+  .regulationblock .glassglowreg .linkglow a {
+    font-size: 11px;
+  }
+  .regulationblock .glassglowreg .col-md-6:last-child .linkglow:first-child {
+    margin-top: 0px;
+  }
+
+  #tradesmart .wrappertrade ul {
+    margin-left: 0px;
+  }
+
+  #slider #mainslider h5 {
+    width: 90%;
+    margin-right: 20px;
+  }
+  #slider #mainslider .elicon span {
+    display: block;
+  }
+  #slider #mainslider .elicon span img {
+    height: 15px;
+  }
+  #slider #mainslider .elicon {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 12px;
+  }
+  #blocks .glassblock {
+    padding: 15px 30px;
+  }
+
+  .modal-content {
+    border-radius: 20px;
+  }
+
+  .glasswhy .glassblock h2 {
+    font-size: 20px !important;
+    margin-top: 15px;
+  }
+
+  .cardspayment .cardsp {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .cardspayment .cardsp img.desktopshow {
+    height: 35px;
+  }
+  .cardspayment .cardsp img.desktopshow:first-child {
+    height: 10px;
+    margin-top: 14px;
+  }
+
+  #slider #mainslider .buttons {
+    padding: 10px 25px;
+
+    font-size: 12px !important;
+  }
+
+  #slider #mainslider .buttons.inline {
+    margin-right: 0px;
+  }
+  #slider #mainslider .buttons.outline {
+    margin-left: 5px;
+  }
+
+  .carousel-indicators {
+    bottom: -20px;
+  }
+
+  #slider #mainslider {
+    border-radius: 0 !important;
+  }
+
+  #whyus .glassblock img {
+    margin-left: 0px;
+  }
+
+  #whyus .glassblock {
+    margin-bottom: 7px;
+  }
+
+  #whyus .row.nomargin .glassblock {
+    margin-bottom: 7px;
+  }
+
+  #whyus .glassblock {
+    padding-bottom: 30px;
+  }
+
+  #whyus .glassblock img {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+
+  #tradesmart .blureffect.right {
+    top: -160px;
+    background-size: 750px;
+  }
+
+  #tradesmart .mobiletrade {
+    width: 100%;
+  }
+
+  #tradesmart .tabs {
+    z-index: 99;
+    position: relative;
+  }
+
+  #favoritemarkets .toplinks li {
+    display: inline-block;
+    margin-bottom: 10px !important;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #tradesmart .wrappertrade h2 {
+    margin-bottom: 20px;
+  }
+
+  #tradesmart .wrappertrade ul {
+    margin-bottom: 20px;
+  }
+
+  #tradesmart .wrappertrade .buttons {
+    margin-bottom: 5px;
+  }
+
+  #tradesmart #tab3 .mobiletrade {
+    margin-top: 20px;
+    width: 60%;
+  }
+
+  #favoritemarkets .contentblock .trstock {
+    width: 40%;
+  }
+
+  #bigplayer .wraperbig h2 {
+    margin-top: 20px;
+  }
+
+  #bigplayer .wraperbig .buttons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #bigplayer .wraperbig .links {
+    display: block;
+    font-size: 12px;
+  }
+  #bigplayer .glassblock .desci {
+    font-size: 11px !important;
+  }
+
+  #bigplayer .glassblock {
+    min-height: inherit;
+    margin-bottom: 10px;
+  }
+
+  #primepromo .glassblocksmall {
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  #vippromo .promoblock h1 {
+    margin-top: 40px;
+    font-weight: 700;
+    background: #a58532;
+    background: linear-gradient(to right, #a58532 0%, #f4de8b 17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    font-size: 36px !important;
+    padding-top: 20px;
+  }
+
+  #vippromo .bonuspack {
+    position: absolute;
+    right: 110px;
+    top: 270px;
+    height: 191px;
+  }
+
+  #vippromo {
+    padding: 100px 0;
+    padding-bottom: 0px;
+  }
+
+  #callto .calltoblock {
+    padding-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  #callto .glassblock {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  #footer .contactin h2 small {
+    margin-right: 0px;
+  }
+
+  #footer .downloads img {
+    height: 38px;
+  }
+
+  #footer .ftmenu > li:nth-child(3) {
+    margin-top: -70px;
+  }
+
+  #callto .glassblock:after {
+    display: none;
+  }
+
+  .platformblock {
+    margin-top: -120px;
+  }
+
+  #maincontentblock h2.title {
+    text-align: center !important;
+    font-size: 1.8em !important;
+  }
+
+  #maincontentblock .buttons {
+    font-size: 12px !important;
+  }
+
+  #maincontentblock .elevateblock {
+    padding-top: 20px;
+  }
+
+  #maincontentblock .threeblocks {
+    margin-top: 20px;
+  }
+  #maincontentblock .threeblocks .glassblock {
+    margin-bottom: 10px;
+  }
+  #maincontentblock .elevateblock .candle {
+    margin-left: 0;
+  }
+  #maincontentblock .threeblocks .glassblock {
+    margin-bottom: 10px;
+    padding-bottom: 5px !important;
+  }
+
+  #maincontentblock .blockglasser {
+    margin-top: 30px;
+  }
+
+  #maincontentblock .blockglasser .glassblock .iconblock {
+    height: 50px;
+  }
+
+  .modifiedwrapper {
+    margin-top: 20px;
+  }
+
+  .downloadblc ul {
+    width: 76%;
+  }
+
+  #callto h1 {
+    margin-top: 0px;
+  }
+
+  #maincontentblock {
+    padding-top: 95px;
+  }
+  #maincontentblock .platformblock {
+    padding-top: 0px;
+  }
+
+  #maincontentblock .platformblock h2.title {
+    padding-top: 40px;
+  }
+
+  #maincontentblock.affiliates .candle,
+  #maincontentblock.ibsection .candle {
+    top: -60px;
+    left: 40px;
+    background-size: 50%;
+  }
+
+  .acctypes .candle {
+    background-size: 46% !important;
+    top: 60px !important;
+    z-index: 99 !important;
+  }
+
+  #maincontentblock.markethours .candle {
+    width: 45px !important;
+    height: 100px !important;
+    top: 50px !important;
+    background-size: 38% !important;
+    left: 30px !important;
+  }
+
+  #maincontentblock .discoverstock .stockimg {
+    margin: 0px auto;
+  }
+
+  #maincontentblock .tradecfds.modififi .candle {
+    background-size: 60%;
+  }
+
+  #maincontentblock .discoverstock {
+    margin-bottom: 40px;
+  }
+
+  #maincontentblock .tradecfds .candle {
+    background-size: 52%;
+    top: 80px;
+  }
+
+  #maincontentblock .wrapperblock.inner {
+    padding: 15px 20px !important;
+  }
+
+  .container-trending-stocks {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 12px;
+  }
+}

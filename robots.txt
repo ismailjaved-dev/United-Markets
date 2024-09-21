@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /*?
+Allow: /$
+
+User-agent: facebookexternalhit
+Disallow:
+
+User-agent: Facebot
+Disallow:
+
+User-agent: facebookexternalhit/1.1
+Disallow:
+
+User-agent: facebookexternalhit/1.0
+Disallow:
+
+User-agent: Twitterbot
+Disallow:
+
+User-agent: bingbot
+Disallow:
+
+User-agent: yahoo
+Disallow:
+
+Sitemap: https://www.24markets.com/sitemap.xml
