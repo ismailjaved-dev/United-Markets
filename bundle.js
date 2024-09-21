@@ -46,20 +46,20 @@ $(document).ready(function () {
   });
 
   // Show the first tab and hide the rest
-  $("#tradesmart li:first-child").addClass("active");
-  $(".tab-content").hide();
-  $(".tab-content:first").show();
+  // $("#tradesmart li:first-child").addClass("active");
+  // $(".tab-content").hide();
+  // $(".tab-content:first").show();
 
-  // Click function
-  $("#tradesmart li").click(function () {
-    $("#tradesmart li").removeClass("active");
-    $(this).addClass("active");
-    $(".tab-content").hide();
+  // // Click function
+  // $("#tradesmart li").click(function () {
+  //   $("#tradesmart li").removeClass("active");
+  //   $(this).addClass("active");
+  //   $(".tab-content").hide();
 
-    var activeTab = $(this).find("a").attr("href");
-    $(activeTab).fadeIn();
-    return false;
-  });
+  //   var activeTab = $(this).find("a").attr("href");
+  //   $(activeTab).fadeIn();
+  //   return false;
+  // });
 });
 
 const menuItem = document.querySelectorAll(

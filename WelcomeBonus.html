@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome Bonus — 24markets.com</title>
+    <title>Welcome Bonus — unitedmarkets.com</title>
 
     <link
       rel="icon"
@@ -941,7 +941,7 @@
       }
 
       #submit-button.submit-button {
-        background-color: #190787;
+        background-color: #09AAEE;
         font-weight: 700;
       }
 
@@ -961,7 +961,7 @@
 
       .newForm a {
         text-decoration: none !important;
-        color: #190787 !important;
+        color: #09AAEE !important;
       }
     </style>
 
@@ -1024,7 +1024,7 @@
               <div class="btn-blue">Get My Bonus Now</div>
               <div
                 class="btn-blue"
-                onclick="window.open('https://cdn.24markets.com/docs/en/WelcomeBonusPolicy.pdf', '_blank');"
+                onclick="window.open('#');"
               >
                 Terms & Conditions
               </div>
@@ -1450,7 +1450,7 @@
                           <a
                             target="_blank"
                             class="Link_link__qbLha undefined undefined"
-                            href="docs/en/TermsConditions.pdf"
+                            href="#"
                           >
                             <span class="twentFourLinks">
                               Client Agreement,
@@ -1460,7 +1460,7 @@
                           <a
                             target="_blank"
                             class="Link_link__qbLha undefined undefined"
-                            href="docs/en/ComplaintsPolicy.pdf"
+                            href="#"
                           >
                             <span class="twentFourLinks">
                               Complaint Handling Policy,
@@ -1470,7 +1470,7 @@
                           <a
                             target="_blank"
                             class="Link_link__qbLha undefined undefined"
-                            href="docs/en/PrivacyPolicy.pdf"
+                            href="#"
                           >
                             <span class="twentFourLinks">Privacy Policy,</span>
                           </a>
@@ -1478,7 +1478,7 @@
                           <a
                             target="_blank"
                             class="Link_link__qbLha undefined undefined"
-                            href="docs/en/RiskDisclosure.pdf"
+                            href="#"
                           >
                             <span class="twentFourLinks"> Risk Disclosure</span>
                           </a>
@@ -1532,7 +1532,7 @@
                     <a
                       target="_blank"
                       class="Link_link__qbLha undefined undefined"
-                      href="docs/en/RiskDisclosure.pdf"
+                      href="#"
                     >
                       <span class="twentFourLinks"> Risk Disclosure.</span>
                     </a>
@@ -1636,8 +1636,8 @@
         />
 
         <div class="upper-side">
-          <p>Benefits of Trading with 24markets<text>.com</text></p>
-          <p>Unparalleled Trading Benefits: Why 24markets.com Stands Out</p>
+          <p>Benefits of Trading with United Markets<text>.com</text></p>
+          <p>Unparalleled Trading Benefits: Why unitedmarkets.com Stands Out</p>
         </div>
         <div class="cards-first-floor">
           <div>
@@ -1896,7 +1896,7 @@
         });
 
         $.ajax({
-          url: "https://24markets.com/api/geo-location",
+          url: "https://unitedmarkets.com/api/geo-location",
           success: function (response) {
             if (response.country !== undefined) {
               instance.intlTelInput(
@@ -2080,14 +2080,14 @@
               email: values.email,
             };
             $.ajax({
-              url: "https://24markets.com/workers/api/middleware-crm/syntellicore/register",
+              url: "https://unitedmarkets.com/workers/api/middleware-crm/syntellicore/register",
               type: "POST",
               contentType: "application/json",
               data: JSON.stringify(requestBody),
               success: function (response) {
                 if (response.success) {
                   $.ajax({
-                    url: "https://24markets.com/workers/api/middleware-crm/syntellicore/login",
+                    url: "https://unitedmarkets.com/workers/api/middleware-crm/syntellicore/login",
                     type: "POST",
                     contentType: "application/json",
                     data: JSON.stringify(loginRequestBody),

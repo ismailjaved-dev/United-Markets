@@ -23,4 +23,4 @@ Disallow:
 User-agent: yahoo
 Disallow:
 
-Sitemap: https://www.24markets.com/sitemap.xml
+Sitemap: https://www.unitedmarkets.com/sitemap.xml

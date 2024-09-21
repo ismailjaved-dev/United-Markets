@@ -9,9 +9,9 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="2.86" y1="70.93" x2="337.15" y2="305" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#190787"/>
+      <stop offset="0" stop-color="#09AAEE"/>
       <stop offset=".25" stop-color="#280bd6"/>
-      <stop offset=".5" stop-color="#190787"/>
+      <stop offset=".5" stop-color="#09AAEE"/>
       <stop offset="1" stop-color="#000"/>
     </linearGradient>
   </defs>

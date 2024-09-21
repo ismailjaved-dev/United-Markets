@@ -12,13 +12,13 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("https://www.24markets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.eot");
+  src: url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.eot");
   src: local("Gilroy Extrabold Italic"), local("Gilroy-ExtraboldItalic"),
-    url("https://www.24markets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.eot?")
+    url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.eot?")
       format("embedded-opentype"),
     url("fonts/Gilroy/Gilroy-ExtraboldItalic.woff2") format("woff2"),
-    url("https://www.24markets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.woff") format("woff"),
-    url("https://www.24markets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.ttf") format("truetype");
+    url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.woff") format("woff"),
+    url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-ExtraboldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
@@ -140,7 +140,7 @@
   src: local("Gilroy SemiBold Italic"), local("Gilroy-SemiBoldItalic"),
     url("fonts/Gilroy/Gilroy-SemiBoldItalic.eot@")
       format("embedded-opentype"),
-    url("https://www.24markets.com/fonts/Gilroy/Gilroy-SemiBoldItalic.woff2") format("woff2"),
+    url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-SemiBoldItalic.woff2") format("woff2"),
     url("fonts/Gilroy/Gilroy-SemiBoldItalic.woff") format("woff"),
     url("fonts/Gilroy/Gilroy-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
@@ -162,12 +162,12 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("https://www.24markets.com/fonts/Gilroy/Gilroy-Extrabold.eot");
+  src: url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-Extrabold.eot");
   src: local("Gilroy Extrabold"), local("Gilroy-Extrabold"),
-    url("https://www.24markets.com/fonts/Gilroy/Gilroy-Extrabold.eot?") format("embedded-opentype"),
+    url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-Extrabold.eot?") format("embedded-opentype"),
     url("fonts/Gilroy/Gilroy-Extrabold.woff2") format("woff2"),
-    url("https://www.24markets.com/fonts/Gilroy/Gilroy-Extrabold.woff") format("woff"),
-    url("https://www.24markets.com/fonts/Gilroy/Gilroy-Extrabold.ttf") format("truetype");
+    url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-Extrabold.woff") format("woff"),
+    url("https://www.unitedmarkets.com/fonts/Gilroy/Gilroy-Extrabold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }

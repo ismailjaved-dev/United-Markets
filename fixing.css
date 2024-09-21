@@ -172,8 +172,8 @@ div.col-md-6:nth-child(2) > div:nth-child(1) > h2:nth-child(1) {
 }
 
 #slider #mainslider .buttons.inline {
-  background: #190787;
-  border-color: #190787;
+  background: #09AAEE;
+  border-color: #09AAEE;
   color: #fff;
   margin-left: 38px;
   margin-right: 9px;
@@ -265,7 +265,7 @@ div.col-md-3:nth-child(5)
 #copy-trading-btn-two:hover {
   background-color: white !important;
   border: 1px solid white !important;
-  color: #190787 !important;
+  color: #09AAEE !important;
 }
 
 .invert {
@@ -398,7 +398,7 @@ div.col-md-3:nth-child(5)
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #190787;
+  color: #09AAEE;
   font-weight: 700;
 }
 
@@ -415,12 +415,12 @@ div.col-md-3:nth-child(5)
 }
 
 #EU-Residents-Notice button {
-  background-color: #190787;
+  background-color: #09AAEE;
   color: #fff;
   padding: 6px 30px;
   border-radius: 20px;
   font-size: 20px;
-  border: 1px solid #190787;
+  border: 1px solid #09AAEE;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -456,7 +456,7 @@ div.col-md-3:nth-child(5)
 }
 
 button.cm__btn:nth-child(1) {
-  background-color: #190787 !important;
+  background-color: #09AAEE !important;
   font-family: "Gilroy" !important;
 }
 
@@ -527,7 +527,7 @@ button.cm__btn:nth-child(1) {
 
 .accordion-body > table > thead > tr > th {
   font-size: 18px;
-  color: #190787;
+  color: #09AAEE;
 }
 .accordion-body > table > tbody > tr > td > div > span:nth-child(1) {
   font-weight: 600;
@@ -662,7 +662,7 @@ td {
   display: block;
   padding: 3px 20px;
   /* Example background color */
-  background-color: #190787;
+  background-color: #09AAEE;
   color: #fff;
   border-radius: 10px;
   cursor: pointer;
@@ -672,9 +672,9 @@ td {
 }
 
 .btn-submit-application {
-  background-color: #190787 !important;
+  background-color: #09AAEE !important;
   width: fit-content;
-  border-color: #190787 !important;
+  border-color: #09AAEE !important;
   padding: 3px 20px !important;
   font-size: 16px !important;
   font-weight: 600 !important;
@@ -698,7 +698,7 @@ td {
   font-weight: 600;
 }
 .blu3 {
-  color: #190787;
+  color: #09AAEE;
   font-weight: 600;
 }
 
@@ -1125,7 +1125,7 @@ div.acc-types-cl-md-4 li span:nth-child(2) {
   margin-top: 0px;
   padding: 10px 60px;
   text-decoration: none;
-  background: #190787;
+  background: #09AAEE;
   border-radius: 20px;
   color: #fff;
   font-size: 20px;

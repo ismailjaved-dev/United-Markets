@@ -78,29 +78,29 @@ nav ul li a {
   border-radius: 20px;
   font-size: 17px;
   transition: background-color 0.3s, color 0.3s;
-  border: 1px solid #190787;
+  border: 1px solid #09AAEE;
 }
 
 .login-btn {
   background-color: transparent;
-  color: #190787;
-  border: 1px solid #190787;
+  color: #09AAEE;
+  border: 1px solid #09AAEE;
 }
 
 .register-btn {
-  background-color: #190787;
+  background-color: #09AAEE;
   color: #fff;
 }
 
 .login-btn:hover {
-  background-color: #190787;
+  background-color: #09AAEE;
   color: #fff;
 }
 
 .register-btn:hover {
   background-color: transparent;
-  color: #190787;
-  border: 1px solid #190787;
+  color: #09AAEE;
+  border: 1px solid #09AAEE;
 }
 
 header .logo {
@@ -231,7 +231,7 @@ section {
 }
 
 #section-one-div {
-  background-image: url(https://www.24markets.com/welcomebonus/img/HERO\ background.webp);
+  background-image: url(https://www.unitedmarkets.com/welcomebonus/img/HERO\ background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -410,7 +410,7 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 }
 
 .cards-first-floor > div > p:nth-child(1) {
-  color: #190787;
+  color: #09AAEE;
   font-size: 18px;
   font-weight: 600;
 }
@@ -448,7 +448,7 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 }
 
 .cards-second-floor > div > p:nth-child(1) {
-  color: #190787;
+  color: #09AAEE;
   font-size: 18px;
   font-weight: 600;
 }
@@ -496,7 +496,7 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 #section-two > .left-side > p:nth-child(1) {
   font-size: 50px;
   font-weight: 700;
-  color: #190787;
+  color: #09AAEE;
 }
 #section-two > .left-side > p:nth-child(2) {
   font-size: 35px;
@@ -510,7 +510,7 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 }
 
 .txt-blue {
-  color: #190787;
+  color: #09AAEE;
 }
 
 #section-three {
@@ -522,13 +522,13 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 #section-four .upper-side {
   font-size: 32px;
   font-weight: 700;
-  color: #190787;
+  color: #09AAEE;
 }
 
 #section-five .upper-side > p:nth-child(1) {
   font-size: 32px;
   font-weight: 700;
-  color: #190787;
+  color: #09AAEE;
 }
 #section-five .upper-side > p:nth-child(1) > text {
   font-weight: 400;
@@ -545,13 +545,13 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 }
 #section-four .custom-side > div > p:nth-of-type(1) {
   text-align: center;
-  color: #190787;
+  color: #09AAEE;
   font-weight: 700;
   margin-top: 20px;
 }
 #section-four .custom-side > div > p:nth-of-type(2) {
   text-align: center;
-  color: #190787;
+  color: #09AAEE;
   line-height: 1.2;
   max-width: 90%;
   margin: auto;
@@ -563,7 +563,7 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 }
 
 .btn-sec-four {
-  color: #190787;
+  color: #09AAEE;
   font-weight: 600;
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
@@ -639,7 +639,7 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
   margin-bottom: 0;
 }
 #section-faq > .left-side > p:nth-child(2) {
-  color: #190787;
+  color: #09AAEE;
   font-size: 18px;
 }
 
@@ -689,7 +689,7 @@ div.custom-side:nth-child(3) > img:nth-child(4) {
 }
 
 #section-cta div.upper-side:nth-child(4) > p:nth-child(1) {
-  color: #190787;
+  color: #09AAEE;
   font-size: 44px;
   font-weight: 700;
 }
@@ -884,7 +884,7 @@ a:hover {
 }
 
 #header .arrow {
-  background: url(https://www.24markets.com/img/arrowdown.png) no-repeat;
+  background: url(https://www.unitedmarkets.com/img/arrowdown.png) no-repeat;
   background-size: 100%;
   display: block;
   width: 12px;
@@ -950,20 +950,20 @@ a:hover {
 }
 
 #header .buttons.inline {
-  background: #190787;
+  background: #09AAEE;
   color: #fff;
-  border-color: #190787;
+  border-color: #09AAEE;
 }
 
 #header .buttons.inline:hover {
   box-shadow: 10px 0px 30px 0px rgba(25, 7, 135, 0.3);
-  background: rgb(25, 7, 135);
+  background: #09AAEE;
   background: linear-gradient(
     315deg,
-    rgba(25, 7, 135, 1) 39%,
-    rgba(13, 2, 80, 1) 88%
+    #09AAEE 39%,
+    #3bbaf0 88%
   );
-  border-color: #0d0250;
+  border-color: #09AAEE;
   transition: all 0.5s ease;
 }
 
